@@ -38,7 +38,7 @@ export async function POST(request: NextRequest) {
 
     if (tag) {
       // Revalidate specific tag
-      revalidateTag(tag)
+      await revalidateTag(tag)
       console.log(`Revalidated tag: ${tag}`)
       
       return NextResponse.json({
@@ -50,7 +50,9 @@ export async function POST(request: NextRequest) {
 
     // Default: revalidate all home page tags
     const tags = ['home', 'home-en', 'home-de']
-    tags.forEach((t) => revalidateTag(t))
+    for (const t of tags) {
+      await revalidateTag(t)
+    }
     console.log(`Revalidated tags: ${tags.join(', ')}`)
 
     return NextResponse.json({
