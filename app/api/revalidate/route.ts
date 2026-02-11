@@ -12,6 +12,7 @@ import { NextRequest, NextResponse } from 'next/server'
  * 2. Add webhook: https://yoursite.com/api/revalidate?secret=YOUR_SECRET&tag=home
  * 3. Trigger on: Home page publish/unpublish
  */
+
 export async function POST(request: NextRequest) {
   // Validate secret token
   const secret = request.nextUrl.searchParams.get('secret')
@@ -38,9 +39,9 @@ export async function POST(request: NextRequest) {
 
     if (tag) {
       // Revalidate specific tag
-      await revalidateTag(tag)
+      revalidateTag(tag, 'max')
       console.log(`Revalidated tag: ${tag}`)
-      
+
       return NextResponse.json({
         revalidated: true,
         tag,
@@ -50,9 +51,11 @@ export async function POST(request: NextRequest) {
 
     // Default: revalidate all home page tags
     const tags = ['home', 'home-en', 'home-de']
+
     for (const t of tags) {
-      await revalidateTag(t)
+      revalidateTag(t, 'max')
     }
+
     console.log(`Revalidated tags: ${tags.join(', ')}`)
 
     return NextResponse.json({
