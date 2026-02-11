@@ -1,0 +1,73 @@
+{
+  "page": {
+    "title": "Contact",
+    "description": "Reach out for a free consultation about your garden project. We respond within 24 hours.",
+    "hero": {
+      "overline": "GET IN TOUCH",
+      "heading": "Let's Create",
+      "headingAccent": "Something Beautiful",
+      "headingSuffix": "Together",
+      "subtitle": "Reach out for a free consultation about your garden project. We respond within 24 hours.",
+      "getConsultation": "Get Free Consultation"
+    },
+    "section": {
+      "overline": "CONTACT US",
+      "heading": "How Can We Help?",
+      "subtitle": "Choose your preferred way to get in touch.",
+      "sendMessage": "Send Us a Message",
+      "ourLocation": "Our Location",
+      "businessHours": "Business Hours",
+      "respondWithin": "We respond within 24 hours",
+      "hoursWeekdays": "Mon–Fri 7:00–18:00",
+      "hoursSaturday": "Sat 8:00–14:00",
+      "mapTitle": "Dzaferi-Gartenbau Location"
+    },
+    "form": {
+      "labels": {
+        "fullName": "Full Name *",
+        "email": "Email Address *",
+        "phone": "Phone Number",
+        "serviceInterest": "Service Interest",
+        "projectDescription": "Project Description *"
+      },
+      "placeholders": {
+        "name": "Your name",
+        "email": "your@email.com",
+        "phone": "079 123 45 67",
+        "message": "Tell us about your project..."
+      },
+      "serviceOptions": {
+        "select": "Select a service",
+        "gardenConstruction": "Garden Construction",
+        "gardenCare": "Garden Care",
+        "propertyManagement": "Property Management",
+        "winterService": "Winter Service",
+        "other": "Other"
+      },
+      "submit": "Send Your Inquiry",
+      "sending": "Sending...",
+      "successTitle": "Message Sent!",
+      "successMessage": "Thank you for reaching out. We'll respond within 24 hours.",
+      "errorGeneric": "Something went wrong. Please try again or call us directly.",
+      "errors": {
+        "nameMin": "Name must be at least 2 characters",
+        "emailInvalid": "Please enter a valid email",
+        "messageMin": "Message must be at least 10 characters"
+      }
+    },
+    "methods": {
+      "callUs": "Call Us",
+      "emailUs": "Email Us",
+      "visitUs": "Visit Us",
+      "callNow": "Call Now",
+      "sendEmail": "Send Email",
+      "getDirections": "Get Directions"
+    },
+    "cta": {
+      "heading": "Ready to Transform Your Outdoor Space?",
+      "subtitle": "Let's discuss your vision. Get in touch for a free consultation.",
+      "primaryCta": "Contact Us",
+      "secondaryCta": "079 402 56 21"
+    }
+  }
+}

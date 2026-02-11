@@ -1,0 +1,122 @@
+{
+  "page": {
+    "title": "Dienstleistungen",
+    "description": "Professioneller Gartenbau, Wartung, Objektbetreuung und Winterdienst in der Region Zürich.",
+    "hero": {
+      "overline": "UNSERE EXPERTISE",
+      "heading": "Professionelle Garten- &",
+      "headingAccent": "Objektservices",
+      "subtitle": "Umfassende Lösungen für jede Jahreszeit und jeden Bedarf.",
+      "viewServices": "Zu den Dienstleistungen",
+      "breadcrumbHome": "Startseite",
+      "breadcrumbServices": "Dienstleistungen"
+    },
+    "section": {
+      "overline": "WAS WIR BIETEN",
+      "heading": "Vollständige Leistungspalette",
+      "subtitle": "Von der Planung bis zur Pflege – wir kümmern uns um jeden Aspekt Ihrer Außenanlagen."
+    },
+    "ctaSubtitle": "Lassen Sie uns über Ihr Projekt sprechen – kostenlose Beratung möglich."
+  },
+  "card": {
+    "learnMore": "Mehr erfahren",
+    "requestService": "Dienst anfragen"
+  },
+  "detail": {
+    "backToServices": "Zurück zu Dienstleistungen",
+    "overview": "Überblick",
+    "detailedExplanation": "Detaillierte Leistungsbeschreibung",
+    "whatWeOffer": "Was wir bieten",
+    "serviceHighlights": "Service-Highlights",
+    "quickFacts": "Kurzinfos",
+    "readyToStart": "Bereit loszulegen?",
+    "readyToStartDescription": "Lassen Sie uns über Ihren Projektbedarf sprechen. Wir bieten kostenlose Beratungen an, um die perfekte Lösung für Ihre Liegenschaft zu planen.",
+    "requestConsultation": "Kostenlose Beratung anfragen",
+    "trustedCertified": "Vertrauenswürdig & Zertifiziert",
+    "insured": "Versichert",
+    "certified": "Zertifiziert",
+    "premium": "Premium",
+    "highlights": {
+      "insuredProfessionals": "Vollständig versicherte und zertifizierte Fachkräfte",
+      "flexibleScheduling": "Flexible Terminplanung nach Ihren Bedürfnissen",
+      "premiumQuality": "Premium-Qualität bei Materialien und Handwerk",
+      "satisfaction": "Zufriedenheitsgarantie bei allen Projekten",
+      "serviceArea": "Bedienung der gesamten Region Zürich",
+      "maintenanceSupport": "Umfassende Wartungsunterstützung"
+    },
+    "facts": {
+      "duration": "Dauer",
+      "durationValue": "Flexible Terminplanung",
+      "serviceArea": "Servicegebiet",
+      "serviceAreaValue": "Zürich & umliegende Regionen",
+      "projectTypes": "Projekttypen",
+      "projectTypesValue": "Privat & gewerblich",
+      "maintenanceSupport": "Wartungsunterstützung",
+      "maintenanceSupportValue": "Laufende Pflege verfügbar"
+    },
+    "ctaHeading": "Bereit loszulegen?",
+    "ctaSubtitle": "Lassen Sie uns über Ihren {service}-Bedarf sprechen. Kostenlose Beratung verfügbar."
+  },
+  "list": {
+    "home-maintenance": {
+      "title": "Hauswartung",
+      "shortDescription": "Fachkundige Landschaftsgestaltung und -bau mit hochwertigen Naturmaterialien.",
+      "fullDescription": "Wir sorgen für regelmäßige Wartung und Pflege Ihrer Liegenschaft. Unsere Hauswartungsleistungen umfassen Reinigung, Hochdruckreinigung, umfassenden Hausservice und zuverlässigen Winterdienst.",
+      "detailedExplanation": [
+        "Unser Hauswartungsservice beginnt mit einer umfassenden Liegenschaftsbeurteilung, bei der unser erfahrenes Team jeden Aspekt des Außenzustands Ihres Hauses, der Landschaftsgesundheit und der saisonalen Anforderungen bewertet. Diese erste Bewertung ermöglicht es uns, einen individuellen Wartungsplan zu erstellen, der speziell auf die einzigartigen Merkmale Ihrer Liegenschaft, den architektonischen Stil und Ihre persönlichen Vorlieben zugeschnitten ist. Wir berücksichtigen Faktoren wie das Alter Ihres Hauses, die verwendeten Baumaterialien, lokale Klimamuster und vorhandene Vegetation, um einen strategischen Ansatz zu entwickeln, der sowohl die ästhetische Attraktivität als auch die funktionale Langlebigkeit maximiert. Dieser personalisierte Planungsprozess stellt sicher, dass kein Detail übersehen wird und dass unsere Dienstleistungen perfekt mit Ihren Erwartungen und Ihrem Budget übereinstimmen.",
+        "Die praktische Anwendung unserer Hauswartungsdienste umfasst eine breite Palette wesentlicher Aufgaben, die zusammenarbeiten, um den makellosen Zustand Ihrer Liegenschaft zu erhalten. Unsere regelmäßigen Reinigungsdienste umfassen gründliche Außenflächenreinigung, Fenster- und Türwartung, Dachrinnenentreinigung und Wegepflege, die Ihre Liegenschaft das ganze Jahr über makellos aussehen lässt. Unsere Hochdruckreinigungsexpertise entfernt angesammelten Schmutz, Algen, Moos und andere Umweltablagerungen, die Oberflächen im Laufe der Zeit abbauen können, und stellt die ursprüngliche Schönheit von Stein, Beton und anderen Materialien wieder her. Während der saisonalen Übergänge bieten wir umfassende Vorbereitungsdienste, die Ihre Liegenschaft vor wetterbedingten Schäden schützen, einschließlich Winterfestmachung, Frühjahrsputz und Herbstlaubmanagement. Darüber hinaus übernimmt unser Team kleinere Reparaturen, Nachbesserungen und vorbeugende Behandlungen, die kleine Probleme angehen, bevor sie zu kostspieligen Problemen werden, und stellt sicher, dass Ihre Liegenschaft in optimalem Zustand bleibt mit minimaler Störung Ihres täglichen Lebens. Die Vorteile der Partnerschaft mit Dzaferi-Gartenbau für Ihre Hauswartungsbedürfnisse gehen weit über die unmittelbaren visuellen Verbesserungen hinaus – unser professionelles Wartungsprogramm erhöht den Marktwert Ihrer Liegenschaft erheblich, verhindert kostspielige Reparaturen durch proaktive Pflege und bietet Seelenfrieden, zu wissen, dass Ihre Liegenschaft von erfahrenen Fachleuten gepflegt wird."
+      ],
+      "features": ["Natursteinarbeiten", "Stützmauern", "Sitzbereiche", "Steintreppen", "Planierung & Aushub"]
+    },
+    "garden-maintenance": {
+      "title": "Gartenpflege",
+      "shortDescription": "Ganzjährige Gartenpflege von der Bepflanzung bis zum Schnitt und professioneller Fällung.",
+      "fullDescription": "Ein gepflegter Garten ist das Aushängeschild Ihres Zuhauses. Wir pflanzen und pflegen Bäume, Sträucher und Pflanzen. Wir bieten auch professionellen Schnitt, Fällung und Entfernung von Wurzelstöcken an.",
+      "detailedExplanation": [
+        "Unser Gartenpflegeprozess beginnt mit einer gründlichen Bewertung des aktuellen Zustands Ihrer Landschaft, der Pflanzengesundheit, der Bodenqualität und der allgemeinen Designintegrität. Unsere Gartenbauexperten untersuchen jeden Baum, Strauch und jede Pflanze, um Gesundheitsprobleme, Nährstoffmängel oder strukturelle Bedenken zu identifizieren, die Aufmerksamkeit erfordern könnten. Wir bewerten Faktoren wie angemessene Abstände, Wachstumsmuster, saisonale Anforderungen und Kompatibilität zwischen verschiedenen Pflanzenarten, um sicherzustellen, dass Ihr Garten optimale Gesundheit und visuelle Harmonie beibehält. Diese umfassende Bewertung bildet die Grundlage für einen personalisierten Wartungsplan, der unmittelbare Bedürfnisse anspricht und gleichzeitig langfristiges Wachstum und Entwicklung plant. Wir berücksichtigen die Sonneneinstrahlung Ihres Gartens, Windmuster, Entwässerungseigenschaften und lokale Klimabedingungen, um ein Pflegeprogramm zu erstellen, das in Harmonie mit der Natur arbeitet, anstatt dagegen.",
+        "Die praktische Durchführung unserer Gartenpflegedienste umfasst eine vollständige Palette von Gartenbautätigkeiten, die darauf ausgelegt sind, kräftiges Wachstum zu fördern, Krankheiten vorzubeugen und die ästhetische Attraktivität aufrechtzuerhalten. Unsere Baum- und Strauchpflegedienste umfassen professionelle Schnitttechniken, die die natürliche Form verbessern, gesunde Wachstumsmuster fördern und tote oder kranke Zweige entfernen, bevor sie die Pflanzengesundheit beeinträchtigen können. Wir verwenden angemessenes Timing und Schnittmethoden, die den Wachstumszyklus jeder Pflanze respektieren und optimale Ergebnisse ohne Stress oder Schäden gewährleisten. Unsere Pflanzdienste gehen über die einfache Installation hinaus – wir wählen sorgfältig geeignete Arten für Ihre spezifischen Bedingungen aus, bereiten den Boden ordnungsgemäß mit notwendigen Zusätzen vor und bieten kontinuierliche Unterstützung während der kritischen Etablierungsphase. Wenn eine Entfernung erforderlich wird, nutzen unsere professionellen Fäll- und Wurzelentfernungsdienste spezialisierte Ausrüstung und Techniken, um Bäume oder Stümpfe sicher zu beseitigen, ohne umliegende Landschaftsmerkmale, Strukturen oder unterirdische Versorgungsleitungen zu beschädigen. Die Vorteile professioneller Gartenpflege mit Dzaferi-Gartenbau sind sowohl unmittelbar als auch langanhaltend – regelmäßige Expertenpflege stellt sicher, dass Ihre Pflanzen ihr volles Potenzial erreichen, beugt häufigen Problemen wie Krankheiten und Schädlingsbefall vor, erhöht die Attraktivität und den Marktwert Ihrer Liegenschaft erheblich und bietet Ihnen vertrauenswürdige Experten, die verfügbar sind, wann immer Fragen auftauchen oder unerwartete Probleme auftreten."
+      ],
+      "features": ["Baum- & Strauchpflege", "Bepflanzung", "Schnitt", "Fällung", "Wurzelentfernung"]
+    },
+    "house-service": {
+      "title": "Hausservice",
+      "shortDescription": "Komplette Wohnbetreuung von der Reinigung bis zum Rasenmähen und kleineren Reparaturen.",
+      "fullDescription": "Für die Pflege und Wartung Ihrer Wohnanlagen bieten wir unseren umfassenden Hausservice an, der Reinigungsarbeiten, Rasenmähen, Unkrautjäten, Pflanzenschnitt, kleinere Reparaturen und Fenster- und Türreinigung umfasst.",
+      "detailedExplanation": [
+        "Die Grundlage unseres Hausservice-Programms liegt in unserem systematischen Ansatz zur Liegenschaftswartung, der mit einer umfassenden Bewertung der spezifischen Bedürfnisse, des Layouts und der Wartungsanforderungen Ihrer Wohnanlage beginnt. Wir arbeiten eng mit Liegenschaftseigentümern und -verwaltern zusammen, um ihre Prioritäten, Budgetbeschränkungen und Qualitätserwartungen zu verstehen, und entwickeln dann einen individualisierten Serviceplan, der routinemäßige Wartungsaufgaben, saisonale Anforderungen und besondere Überlegungen, die für Ihre Liegenschaft einzigartig sind, anspricht. Unsere Reinigungsdienste umfassen sowohl Innengemeinschaftsbereiche als auch Außenflächen, einschließlich gründlicher Reinigung von Eingängen, Fluren, Treppenhäusern und gemeinsamen Räumen, die positive erste Eindrücke für Bewohner und Besucher schaffen. Die Außenreinigung umfasst Hochdruckreinigung von Gehwegen, Auffahrten und Gebäudefassaden, Entfernung von Schutt und Abfall und Pflege von Außengemeinschaftsbereichen. Unsere Landschaftsdienste pflegen Rasenflächen, Gärten und Grünflächen mit professionellem Mähen, Kantenschneiden, Unkrautjäten und Pflanzenpflege, die Ihre Liegenschaft das ganze Jahr über poliert und gut gepflegt aussehen lässt.",
+        "Über die routinemäßige Wartung hinaus umfasst unser Hausservice proaktive Pflege, die Probleme verhindert, bevor sie zu kostspieligen Problemen werden. Unser Team führt regelmäßige Inspektionen durch, um potenzielle Bedenken wie lose Armaturen, beschädigte Oberflächen, Entwässerungsprobleme oder Sicherheitsrisiken zu identifizieren und diese umgehend mit kleineren Reparaturen anzugehen, die die Integrität und das Erscheinungsbild Ihrer Liegenschaft erhalten. Fenster- und Türreinigungsdienste stellen sicher, dass natürliches Licht frei in Gemeinschaftsbereiche fließt und dass Eingänge ein einladendes, professionelles Erscheinungsbild präsentieren. Wir handhaben saisonale Übergänge mit umfassenden Vorbereitungen, einschließlich Herbstlaubentfernung, Winterwegwartung, Frühjahrsputz und Sommerlandschaftspflege, die sich an wechselnde Wetterbedingungen anpasst. Unsere reaktionsfähigen Reparaturdienste gehen kleinere Probleme schnell und effizient an und verhindern, dass kleine Probleme zu größeren Ausgaben eskalieren. Das Wertversprechen unseres umfassenden Hausservices geht weit über die unmittelbaren visuellen Verbesserungen hinaus – Liegenschaftseigentümer profitieren von erhöhten Liegenschaftswerten, reduzierten Mieterbeschwerden, verbesserter Mieterzufriedenheit und Bindungsraten und Seelenfrieden, zu wissen, dass ihre Investition durch erfahrene Fachleute geschützt ist, die Wohnliegenschaften nach höchsten Standards pflegen."
+      ],
+      "features": ["Reinigung", "Rasenmähen", "Unkrautjäten", "Pflanzenschnitt", "Kleinere Reparaturen", "Fensterreinigung"]
+    },
+    "horiculture": {
+      "title": "Gartenbau",
+      "shortDescription": "Umfassende laufende Wartung und Full-Service-Betreuung.",
+      "fullDescription": "Wir entwerfen und bauen Ihren Traumgarten: Natursteine, Steinmauern, Sitzbereiche, Steintreppen, Planierung und Aushub.",
+      "detailedExplanation": [
+        "Unser gartenbaulicher Design- und Bauprozess beginnt mit einer ausführlichen Beratung, bei der wir Ihre Vision, Lebensstilbedürfnisse und ästhetischen Vorlieben erkunden, während wir sorgfältig die einzigartigen Merkmale Ihrer Liegenschaft beurteilen. Wir analysieren Faktoren wie Bodenzusammensetzung, Entwässerungsmuster, Sonneneinstrahlung, vorhandene Vegetation und architektonischen Stil, um ein Design zu erstellen, das perfekt mit Ihrem Zuhause und der natürlichen Umgebung harmoniert. Unsere Expertise in der Arbeit mit Naturstein ermöglicht es uns, atemberaubende Merkmale zu schaffen, einschließlich eleganter Stützmauern, die Entwässerungs- und Höhenherausforderungen lösen, während sie strukturelle Schönheit hinzufügen, sorgfältig gestaltete Sitzbereiche, die natürliche Versammlungsorte werden, und anmutige Steintreppen, die sicheren, attraktiven Zugang in Ihrer Landschaft bieten. Wir wenden professionelle Planierungstechniken und Aushubarbeiten an, um Ihr Gelände optimal zu formen, angemessene Entwässerung zu gewährleisten, visuelles Interesse durch Höhenänderungen zu schaffen und die Grundlage für erfolgreiche Pflanzungen vorzubereiten. Während des gesamten Bauprozesses achten wir akribisch auf Details und stellen sicher, dass jeder Stein mit Präzision platziert wird, jede Oberfläche perfekt vollendet ist und jedes Element zur Gesamtharmonie und Funktionalität Ihres Außenbereichs beiträgt.",
+        "Die praktische Umsetzung unserer Gartenbaudienste kombiniert fachkundige Pflanzenauswahl mit professionellen Installationstechniken, die optimales Wachstum und langfristigen Erfolg gewährleisten. Wir wählen sorgfältig Pflanzenarten aus, die in Ihren spezifischen Bedingungen gedeihen, unter Berücksichtigung von Faktoren wie Klimahärte, Bodenpräferenzen, Wasserbedarf und Wartungsbedarf, um einen Garten zu schaffen, der sowohl schön als auch nachhaltig ist. Unsere Pflanztechniken umfassen angemessene Bodenvorbereitung, angemessene Abstände für reifes Wachstum und Installationsmethoden, die gesunde Wurzelentwicklung fördern. Wir integrieren Pflanzen nahtlos mit Hardscape-Elementen und schaffen Übergänge zwischen gebauten und natürlichen Merkmalen, die organisch und beabsichtigt wirken. Unsere laufenden Wartungsdienste stellen sicher, dass Ihre gartenbauliche Investition sich weiterhin schön entwickelt, mit regelmäßiger Pflege, die Schnitt, Düngung, Schädlingsbekämpfung und saisonale Anpassungen umfasst, die Ihren Garten das ganze Jahr über in Bestform halten. Die Vorteile professioneller Gartenbaudienste gehen weit über die unmittelbare visuelle Wirkung hinaus – ein gut ausgeführtes Gartenprojekt erhöht den Marktwert Ihrer Liegenschaft erheblich, schafft funktionale Außenbereiche, die Ihre tägliche Lebensqualität verbessern, und stellt sicher, dass Ihr Garten unter Verwendung von Best Practices erstellt und gepflegt wird, die die Umweltgesundheit fördern und nachhaltige Schönheit für kommende Generationen schaffen."
+      ],
+      "features": ["Regelmäßige Wartung", "Reinigung", "Hochdruckreinigung", "Full-Service-Betreuung"]
+    },
+    "winter-service": {
+      "title": "Winterdienst",
+      "shortDescription": "Schneeräumung, Streuen und Wegefreilegung für sicheren Winterzugang.",
+      "fullDescription": "In der Wintersaison bieten wir Ihnen einen professionellen Schneeräumungs- und Streudienst an. Kontaktieren Sie uns für weitere Informationen und zur Planung Ihres Winterdienstes.",
+      "detailedExplanation": [
+        "Unser Winterdienst beginnt mit proaktiver Planung und Vorbereitung, die sicherstellt, dass wir sofort reagieren können, wenn Winterwetter eintrifft. Wir führen Vorsaison-Bewertungen Ihrer Liegenschaft durch, um kritische Bereiche zu identifizieren, die Aufmerksamkeit erfordern, Verkehrsmuster und Zugangsbedürfnisse zu verstehen und strategische Pläne für effiziente Schneeräumung und Eismanagement zu entwickeln. Diese Vorbereitung umfasst die Sicherstellung, dass alle Wege, Auffahrten, Parkbereiche und Notfallzugangsrouten klar identifiziert und priorisiert sind. Wir etablieren klare Kommunikationsprotokolle, die es Liegenschaftseigentümern ermöglichen, Dienste bei Bedarf anzufordern, während wir auch proaktive Überwachung von Wettervorhersagen beibehalten, um Dienstanforderungen vorherzusehen. Unser Team ist in den effektivsten Techniken für Schneeräumung geschult, einschließlich angemessener Räummuster, die Schäden an Oberflächen minimieren, effizienter Schneestapelung, die verfügbaren Platz maximiert, und gründlicher Räumung, die vollständige Zugänglichkeit gewährleistet. Wir verstehen die Bedeutung des Timings im Winterdienst, reagieren schnell auf Schneefall, um Ansammlung zu verhindern, die schwer zu bewältigen wird, und stellen sicher, dass Wege den ganzen Tag über klar bleiben, während sich die Bedingungen ändern.",
+        "Die Durchführung unseres Winterdienstes umfasst umfassende Schneeräumung und Eisprävention, die sichere Bedingungen in Ihrer gesamten Liegenschaft aufrechterhält. Unsere Schneeräumungsdienste verwenden professionelle Ausrüstung, die für den Umfang Ihrer Liegenschaft geeignet ist, von handgeführten Schneefräsen für Wege und kleinere Bereiche bis hin zu lastwagemontierten Pflügen für ausgedehnte Auffahrten und Parkplätze. Wir wenden Techniken an, die Schnee vollständig entfernen, anstatt ihn nur beiseite zu schieben, und stellen sicher, dass Wege klar und zugänglich bleiben. Unsere Streu- und Salzdienste wenden angemessene Materialien zu optimalen Zeiten an, um Eisbildung zu verhindern, und verwenden umweltverantwortliche Produkte, die Eis effektiv schmelzen, während sie die Auswirkungen auf umliegende Vegetation und Oberflächen minimieren. Der Wert professionellen Winterdienstes geht über den unmittelbaren Vorteil freier Wege und sicheren Zugangs hinaus – Liegenschaftseigentümer profitieren von reduziertem Haftungsrisiko, zuverlässigem Service, der den normalen Betrieb aufrechterhält, Schutz von Liegenschaftsoberflächen vor Schäden und Seelenfrieden, zu wissen, dass unabhängig von Wetterbedingungen ihre Liegenschaft während der gesamten Wintersaison professionell und sicher gepflegt wird."
+      ],
+      "features": ["Schneeräumung", "Streuen & Salzen", "Wegefreilegung", "Saisonale Bereitschaft"]
+    },
+    "consultation": {
+      "title": "Beratung & Design",
+      "shortDescription": "Gartendesign, Planung, Materialauswahl und Projektumfang.",
+      "fullDescription": "Jeder großartige Garten beginnt mit einem Gespräch. Wir beginnen mit Zuhören – Ihren Ideen, Ihrem Lebensstil, Ihrer Vision.",
+      "detailedExplanation": [
+        "Unser Beratungsprozess beginnt mit einem ausführlichen Treffen, bei dem wir Ihre Vision, Ihren Lebensstil und Ihre Ziele erkunden, während wir eine gründliche Standortanalyse durchführen, die alle Designentscheidungen informiert. Wir besprechen, wie Sie sich die Nutzung Ihres Außenbereichs vorstellen – sei es für ruhige Entspannung, Gästeunterhaltung, Kinderspiel oder eine Kombination von Zwecken – und wir berücksichtigen Faktoren wie Privatsphärebedürfnisse, Wartungspräferenzen und langfristige Pläne für Ihre Liegenschaft. Unsere Standortanalyse untersucht kritische Elemente einschließlich Bodenbedingungen, Entwässerungsmuster, Sonnen- und Schattenexposition während des Tages und der Jahreszeiten, vorhandene Vegetation, architektonischen Stil Ihres Hauses und alle Standortbeschränkungen oder -möglichkeiten, die das Design beeinflussen werden. Wir besprechen auch Ihre Budgetparameter und Zeiterwartungen und stellen sicher, dass unsere Designempfehlungen mit Ihren finanziellen Überlegungen übereinstimmen, während sie Wert und Wirkung maximieren. Dieser umfassende Beratungsprozess ermöglicht es uns, ein tiefes Verständnis Ihrer Bedürfnisse und Vorlieben zu entwickeln, das die Grundlage für ein Design bildet, das sich einzigartig Ihres anfühlt, während es professionelle Expertise einbezieht, die das Endergebnis über das hinaus erhebt, was Sie sich vielleicht vorgestellt haben.",
+        "Die Designentwicklungsphase verwandelt die während der Beratung gesammelten Erkenntnisse in detaillierte Pläne, die als Blaupausen für den Bau dienen und als visuelle Werkzeuge, die Ihnen helfen, das Endergebnis zu visualisieren. Unser Designprozess umfasst die Erstellung konzeptioneller Pläne, die verschiedene Layoutoptionen erkunden, Materialauswahlen, die Ästhetik mit Haltbarkeit und Wartungsanforderungen ausbalancieren, und Pflanzenpaletten, die in Ihren spezifischen Bedingungen gedeihen, während sie Ihre gewünschte visuelle Wirkung erzielen. Wir berücksichtigen die Beziehung zwischen verschiedenen Gartenbereichen und schaffen Fluss und Übergänge, die den gesamten Raum kohäsiv und beabsichtigt wirken lassen. Unsere Materialauswahlexpertise stellt sicher, dass Hardscape-Elemente wie Naturstein, Pflastermaterialien und Baudetails für ihre Schönheit, Funktionalität und Angemessenheit für Ihr Klima und Nutzungsmuster ausgewählt werden. Die Vorteile einer Investition in professionelle Beratungs- und Designdienste gehen weit über den unmittelbaren Wert detaillierter Pläne hinaus – ein gut gestalteter Gartenplan stellt sicher, dass Ihre Investition auf Elemente gerichtet ist, die maximale Wirkung bieten, verhindert kostspielige Fehler während des Baus, hilft Ihnen, häufige Fallstricke zu vermeiden, und gibt Ihnen Vertrauen zu wissen, dass Ihr Gartenprojekt von erfahrenen Fachleuten geleitet wird, die sowohl die künstlerischen als auch die praktischen Aspekte der Schaffung schöner Außenbereiche verstehen."
+      ],
+      "features": ["Gartendesign", "Planung", "Materialauswahl", "Projektumfang"]
+    }
+  }
+}

@@ -1,0 +1,85 @@
+{
+  "hero": {
+    "overline": "PREMIUM GARDEN LANDSCAPING",
+    "heading": "We Create Gardens That",
+    "headingAccent": "Inspire",
+    "subtitle": "Expert garden construction, care, and property services across the Zurich region. Since day one, we've been turning outdoor spaces into living masterpieces.",
+    "primaryCta": "Explore Our Work",
+    "secondaryCta": "Contact Us"
+  },
+  "trustBar": {
+    "items": ["15+ Years Experience", "200+ Projects", "Zurich Region", "Swiss Quality"]
+  },
+  "servicesOverview": {
+    "overline": "WHAT WE DO",
+    "heading": "Comprehensive Garden & Property Services",
+    "subtitle": "From landscape design to year-round maintenance, we handle every aspect of your outdoor spaces.",
+    "viewAll": "View All Services",
+    "cards": [
+      { "title": "Home maintenance", "description": "Expert landscape design and construction using premium natural materials." },
+      { "title": "Garden Maintenance", "description": "Year-round garden care from planting to pruning and professional felling." },
+      { "title": "House Service", "description": "Complete residential care from cleaning to lawn mowing and minor repairs." }
+    ]
+  },
+  "featuredProjects": {
+    "overline": "OUR WORK",
+    "heading": "Recent Garden Transformations",
+    "subtitle": "See how we've helped homeowners across Zurich create their dream gardens.",
+    "viewAll": "View All Projects",
+    "viewProject": "View Project",
+    "cards": [
+      { "title": "Luxury Garden Transformation", "location": "Küsnacht, Zürich" },
+      { "title": "Villa Terrace & Stone Work", "location": "Thalwil, Zürich" },
+      { "title": "Year-Round Garden Care", "location": "Egg, Zürich" },
+      { "title": "Full Property Management", "location": "Horgen, Zürich" },
+      { "title": "Natural Stone Pathway", "location": "Zollikon, Zürich" },
+      { "title": "Modern Landscape Design", "location": "Kilchberg, Zürich" }
+    ]
+  },
+  "whyChooseUs": {
+    "overline": "WHY DZAFERI",
+    "heading": "Trusted by Homeowners Across Switzerland",
+    "items": [
+      { "title": "Decades of Expertise", "description": "Over 15 years of professional experience in garden construction and property care. Our team brings proven skills to every project." },
+      { "title": "Personal Attention", "description": "We treat every project as unique. Direct communication with our team means your vision is understood and executed with care." },
+      { "title": "Swiss Quality Standards", "description": "Precision, reliability, and craftsmanship are non-negotiable. We deliver work that meets the highest Swiss expectations." },
+      { "title": "Year-Round Service", "description": "From spring planting to winter snow removal, we're there when you need us. Consistent care, every season." }
+    ]
+  },
+  "stats": {
+    "items": ["Years of Experience", "Completed Projects", "Active Maintenance Clients", "Client Satisfaction"]
+  },
+  "howWeWork": {
+    "overline": "HOW WE WORK",
+    "heading": "From Vision to Reality",
+    "subtitle": "Our proven process ensures exceptional results every time.",
+    "steps": [
+      { "title": "Consultation", "description": "We listen to your vision and assess your space." },
+      { "title": "Design & Planning", "description": "We create a detailed plan tailored to your needs." },
+      { "title": "Expert Execution", "description": "Our team brings the design to life with precision." },
+      { "title": "Ongoing Care", "description": "We maintain your garden's beauty year-round." }
+    ]
+  },
+  "testimonials": {
+    "overline": "CLIENT VOICES",
+    "heading": "What Our Clients Say",
+    "cards": [
+      { "quote": "Dzaferi Gartenbau transformed our garden into a true paradise. Professional, reliable, and creative.", "clientName": "S. Anna", "clientLocation": "Homeowner, Zurich" },
+      { "quote": "The attention to detail and quality of work is exceptional. Our outdoor space has never looked better.", "clientName": "M. Muller", "clientLocation": "Villa Owner, Küsnacht" },
+      { "quote": "Trustworthy and professional. They've been maintaining our property for years and we couldn't be happier.", "clientName": "T. Markus", "clientLocation": "Property Managers, Thalwil" }
+    ]
+  },
+  "featureCards": {
+    "cards": [
+      { "title": "About Us", "caption": "Meet the passionate team behind every garden we create. Our story, values, and commitment to Swiss quality." },
+      { "title": "Services", "caption": "From landscape construction to year-round maintenance. Comprehensive solutions for every outdoor need." },
+      { "title": "Garden & Home Maintenance", "caption": "Expert care that keeps your property at its best. Seasonal attention, professional standards, peace of mind." }
+    ]
+  },
+  "cta": {
+    "heading": "Ready to Transform Your Outdoor Space?",
+    "subtitle": "Let's discuss your vision. Get in touch for a free consultation.",
+    "primaryCta": "Contact Us",
+    "secondaryCta": "079 402 56 21"
+  }
+}

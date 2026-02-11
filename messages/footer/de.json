@@ -1,0 +1,23 @@
+{
+  "description": "Professioneller Gartenbau, Unterhalt und Objektservice in der Region Zürich.",
+  "services": "Dienstleistungen",
+  "company": "Unternehmen",
+  "contact": "Kontakt",
+  "nav": {
+    "services": {
+      "homeMaintenance": "Hauswartung",
+      "gardenCare": "Gartenpflege",
+      "horiculture": "Gartenbau",
+      "winterService": "Winterdienst"
+    },
+    "company": {
+      "about": "Über uns",
+      "projects": "Projekte",
+      "contact": "Kontakt"
+    }
+  },
+  "copyright": "Alle Rechte vorbehalten.",
+  "impressum": "Impressum",
+  "privacy": "Datenschutz",
+  "madeIn": "Hergestellt in der Schweiz"
+}

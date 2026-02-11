@@ -1,0 +1,95 @@
+{
+  "page": {
+    "title": "About Us",
+    "description": "The people and values behind Dzaferi-Gartenbau. Passion for nature, precision in craft.",
+    "hero": {
+      "overline": "ABOUT US",
+      "heading": "Passion for Nature,",
+      "headingAccent": "Precision in Craft",
+      "subtitle": "Get to know the people and values behind Dzaferi-Gartenbau.",
+      "ourValues": "Our Values"
+    },
+    "story": {
+      "overline": "OUR STORY",
+      "heading": "Rooted in Passion, Built on Precision",
+      "subtitle": "From our founding to becoming a trusted name across Zurich.",
+      "contentHeading": "Our Story",
+      "paragraphs": [
+        "Founded with a deep passion for nature and craftsmanship, Dzaferi-Gartenbau has grown from small beginnings to become a trusted provider of premium garden landscaping across the Zurich region.",
+        "We do not just build gardens - we create living spaces that enhance quality of life. Rooted in passion and refined by experience, our team brings Swiss precision to every project.",
+        "Nature is our inspiration; precision is our promise. Your vision, our expertise."
+      ],
+      "imageAlt": "Dzaferi-Gartenbau team at work"
+    },
+    "values": {
+      "overline": "OUR VALUES",
+      "heading": "What We Stand For",
+      "cards": [
+        {
+          "title": "Quality",
+          "description": "Swiss precision in every detail"
+        },
+        {
+          "title": "Trust",
+          "description": "Reliable partnerships, honest communication"
+        },
+        {
+          "title": "Nature",
+          "description": "Respect for the environment in all we do"
+        },
+        {
+          "title": "Passion",
+          "description": "Genuine love for the craft of gardening"
+        }
+      ]
+    },
+    "landscape": {
+      "quote": {
+        "prefix": "Let your",
+        "hands": "hands",
+        "middle": "be covered in soil, and your",
+        "heart": "heart",
+        "suffix": "in hope."
+      },
+      "subtitle": "Grow dreams, one plant at a time."
+    },
+    "purpose": {
+      "overline": "OUR PURPOSE",
+      "heading": "Our Vision & Mission",
+      "cards": [
+        {
+          "title": "Our Vision",
+          "description": "To create timeless outdoor spaces that harmonize nature, functionality, and craftsmanship - enhancing the way people live and connect with their surroundings."
+        },
+        {
+          "title": "Our Mission",
+          "description": "Our mission is to design and build high-quality gardens and outdoor environments through thoughtful planning, sustainable practices, and precise execution. We work closely with our clients to deliver durable, beautiful results that stand the test of time."
+        }
+      ]
+    },
+    "team": {
+      "overline": "OUR TEAM",
+      "heading": "The People Behind Your Garden",
+      "cards": [
+        {
+          "name": "Ferit Dzaferi",
+          "role": "Founder & Managing Director",
+          "bio": "With over 15 years of experience in garden landscaping, Ferit brings passion and precision to every project.",
+          "phone": "079 402 56 21"
+        },
+        {
+          "name": "Jean Oertli",
+          "role": "Operations & Client Relations",
+          "bio": "Jean ensures every client receives personalized attention and that projects run smoothly from start to finish.",
+          "phone": ""
+        }
+      ]
+    },
+    "cta": {
+      "heading": "Ready to Transform Your Outdoor Space?",
+      "subtitle": "Let's discuss your vision. Get in touch for a free consultation.",
+      "primaryCta": "Contact Us",
+      "secondaryCta": "079 402 56 21"
+    }
+  }
+}

@@ -1,0 +1,263 @@
+{
+  "page": {
+    "title": "Projekte",
+    "description": "Entdecken Sie unsere Referenzprojekte von Gartengestaltungen in der Region Zürich.",
+    "viewProject": "Projekt anzeigen",
+    "hero": {
+      "overline": "UNSER PORTFOLIO",
+      "heading": "Gärten, die wir",
+      "headingAccent": "zum Leben erweckt haben",
+      "subtitle": "Durchstöbern Sie unsere Sammlung abgeschlossener Projekte in der Region Zürich.",
+      "viewProjects": "Zur Projektgalerie"
+    },
+    "section": {
+      "overline": "UNSERE ARBEIT",
+      "heading": "Projektgalerie",
+      "subtitle": "Sehen Sie, wie wir Außenbereiche in der Region verwandelt haben."
+    }
+  },
+  "ui": {
+    "backToProjects": "Zurück zu den Projekten",
+    "projectDetails": "Projektdetails",
+    "services": "Leistungen",
+    "tags": "Kategorien",
+    "requestSimilarProject": "Ähnliches Projekt anfragen",
+    "overviewHeading": "Überblick",
+    "challengeSolutionHeading": "Herausforderung & Lösung",
+    "challengeLabel": "Herausforderung",
+    "solutionLabel": "Lösung",
+    "processHeading": "Ablauf",
+    "step": "Schritt",
+    "resultsHeading": "Ergebnis"
+  },
+  "list": [
+    {
+      "slug": "luxury-garden-kusnacht",
+      "title": "Luxus-Gartengestaltung",
+      "description": "Komplettes Redesign mit hochwertiger Steinarbeit, Bepflanzung und Beleuchtung für ein edles Outdoor-Wohngefühl.",
+      "location": "Küsnacht, Zürich",
+      "tags": ["Gestaltung", "Steinarbeit", "Bepflanzung"]
+    },
+    {
+      "slug": "villa-terrace-thalwil",
+      "title": "Villa-Terrasse & Steinarbeit",
+      "description": "Moderne Terrassenerneuerung mit Naturstein-Details und langlebigen, präzise ausgeführten Oberflächen.",
+      "location": "Thalwil, Zürich",
+      "tags": ["Terrasse", "Naturstein", "Bau"]
+    },
+    {
+      "slug": "residential-maintenance",
+      "title": "Ganzjährige Gartenpflege",
+      "description": "Saisonale Pflege, damit Rasen, Hecken und Beete jeden Monat gepflegt und gesund bleiben.",
+      "location": "Egg, Zürich",
+      "tags": ["Pflege", "Schnitt", "Pflanzenpflege"]
+    },
+    {
+      "slug": "property-full-service",
+      "title": "Komplette Objektbetreuung",
+      "description": "Umfassende Garten- und Objektpflege mit verlässlicher Planung und Schweizer Qualitätsstandards.",
+      "location": "Horgen, Zürich",
+      "tags": ["Full Service", "Zuverlässigkeit", "Objektpflege"]
+    },
+    {
+      "slug": "natural-stone-pathway",
+      "title": "Natursteinweg",
+      "description": "Zeitlose Weglösung, die den Zugang verbessert und die Gartengestaltung sichtbar aufwertet.",
+      "location": "Zollikon, Zürich",
+      "tags": ["Wege", "Naturstein", "Handwerk"]
+    },
+    {
+      "slug": "modern-landscape-design",
+      "title": "Moderne Gartengestaltung",
+      "description": "Klare Linien, zeitgemäße Bepflanzung und funktionale Zonen – geplant für den Alltag.",
+      "location": "Kilchberg, Zürich",
+      "tags": ["Gartendesign", "Bepflanzung", "Outdoor Living"]
+    }
+  ],
+  "details": {
+    "luxury-garden-kusnacht": {
+      "title": "Luxus-Gartengestaltung",
+      "description": "Ein ganzheitliches Redesign, das ein ruhiges, hochwertiges Outdoor-Wohngefühl schafft.",
+      "overview": "Wir haben einen in die Jahre gekommenen Garten in ein stimmiges Gesamtkonzept verwandelt – mit neuer Bepflanzung, Steinelementen und Beleuchtung, die Architektur und Grün hervorhebt.",
+      "challenge": "Unebene Höhen, wenig nutzbare Fläche und ein uneinheitliches Pflanzbild ohne ganzjährige Struktur.",
+      "solution": "Ein klarer Grundriss mit hochwertiger Steinarbeit, gestaffelter Bepflanzung für alle Jahreszeiten und dezenter Beleuchtung für mehr Nutzbarkeit am Abend.",
+      "process": {
+        "steps": [
+          { "title": "Beratung & Bestandsaufnahme", "description": "Wir klärten Ziele, vermassen das Gelände und erfassten Randbedingungen." },
+          { "title": "Planung & Konzept", "description": "Wir entwickelten Wegeführung, Pflanzzonen und Materialkonzept." },
+          { "title": "Ausführung", "description": "Erdarbeiten, Steinarbeit und Entwässerung – sauber und dauerhaft umgesetzt." },
+          { "title": "Bepflanzung & Finish", "description": "Strukturpflanzung und Lichtakzente für einen edlen Gesamtauftritt." }
+        ]
+      },
+      "results": {
+        "items": [
+          "Mehr nutzbarer Outdoor-Wohnraum",
+          "Hochwertige Steindetails und Oberflächen",
+          "Ganzjährige Struktur durch abgestufte Bepflanzung",
+          "Stimmungsvolle Abende durch integrierte Beleuchtung"
+        ]
+      },
+      "cta": {
+        "heading": "Sie wünschen eine ähnliche Verwandlung?",
+        "text": "Erzählen Sie uns von Ihrem Garten – wir erstellen ein Konzept, das zu Ihrer Liegenschaft passt.",
+        "button": "Kontakt aufnehmen"
+      }
+    },
+    "villa-terrace-thalwil": {
+      "title": "Villa-Terrasse & Steinarbeit",
+      "description": "Eine Terrassenerneuerung für Langlebigkeit, Komfort und einen modernen Look.",
+      "overview": "Wir haben Terrasse und Randabschlüsse erneuert, Naturstein-Akzente ergänzt und die Übergänge zwischen Haus und Garten verbessert.",
+      "challenge": "Alte, unebene Beläge und schwache Details an Kanten und Entwässerungspunkten.",
+      "solution": "Neuaufbau mit präzisen Gefällen, besserer Wasserführung und Steinelementen, die zum Charakter der Villa passen.",
+      "process": {
+        "steps": [
+          { "title": "Analyse", "description": "Wir prüften Zustand, Höhen und Entwässerung." },
+          { "title": "Materialwahl", "description": "Wir wählten langlebige Materialien passend zu Haus und Garten." },
+          { "title": "Neuaufbau & Details", "description": "Wir erneuerten Oberfläche, Kanten, Fugen und Übergänge." },
+          { "title": "Abnahme", "description": "Wir kontrollierten Ausrichtung, Wasserlauf und Finish." }
+        ]
+      },
+      "results": {
+        "items": [
+          "Ebenes, komfortables Terrassenniveau",
+          "Verbesserte Entwässerung und Lebensdauer",
+          "Naturstein-Akzente mit sauberen Details",
+          "Stärkerer Bezug zwischen Haus und Garten"
+        ]
+      },
+      "cta": {
+        "heading": "Terrasse erneuern?",
+        "text": "Wir beraten zu Materialien und setzen mit Präzision um.",
+        "button": "Beratung anfragen"
+      }
+    },
+    "residential-maintenance": {
+      "title": "Ganzjährige Gartenpflege",
+      "description": "Saisonale Pflege, damit der Garten ordentlich, gesund und stimmig bleibt.",
+      "overview": "Von Schnitt und Rasenpflege bis zur Beetpflege – wir kümmern uns strukturiert über alle Jahreszeiten, damit der Garten das ganze Jahr über attraktiv bleibt.",
+      "challenge": "Unregelmäßige Pflege führte zu ungleichmäßigem Pflanzenwachstum und einem unruhigen Gesamtbild.",
+      "solution": "Ein verlässlicher Rhythmus mit klaren Standards für Schnitt, Rasen und Pflanzpflege sorgt für Balance und Gesundheit.",
+      "process": {
+        "steps": [
+          { "title": "Gartencheck", "description": "Wir beurteilten Pflanzen, Struktur und Pflegebedarf." },
+          { "title": "Saisonplan", "description": "Wir legten Termine für Schnitt, Düngung, Mähen und Reinigung fest." },
+          { "title": "Regelmäßige Einsätze", "description": "Wir führen Arbeiten zuverlässig und gleichbleibend aus." },
+          { "title": "Laufende Optimierung", "description": "Wir passen die Pflege an Wetter, Wachstum und Feedback an." }
+        ]
+      },
+      "results": {
+        "items": [
+          "Gesündere Pflanzen und Rasenflächen",
+          "Durchgehend gepflegter Eindruck",
+          "Weniger Aufwand für Eigentümer",
+          "Klare Planung und verlässliche Einsätze"
+        ]
+      },
+      "cta": {
+        "heading": "Zuverlässige Gartenpflege gesucht?",
+        "text": "Wir übernehmen die Pflege mit einem klaren Jahresplan.",
+        "button": "Pflege anfragen"
+      }
+    },
+    "property-full-service": {
+      "title": "Komplette Objektbetreuung",
+      "description": "Ganzheitliche Betreuung von Außenanlage und Objekt – verlässlich umgesetzt.",
+      "overview": "Dieses Projekt vereint Gartenpflege mit Objektservice, damit alles sauber, sicher und in bestem Zustand bleibt – das ganze Jahr.",
+      "challenge": "Viele Aufgaben über mehrere Saisons hinweg – mit hohem Anspruch an Zuverlässigkeit und Koordination.",
+      "solution": "Ein Full-Service-Plan mit klaren Zuständigkeiten, fixen Terminen und hoher Ausführungsqualität an allen Kontaktpunkten.",
+      "process": {
+        "steps": [
+          { "title": "Leistungsumfang", "description": "Wir definierten Aufgaben und einen planbaren Rhythmus." },
+          { "title": "Umsetzung", "description": "Wir koordinierten Garten- und Objektarbeiten aus einer Hand." },
+          { "title": "Qualitätskontrolle", "description": "Regelmäßige Checks und Verbesserungen." },
+          { "title": "Langfristige Betreuung", "description": "Wir halten die Liegenschaft dauerhaft in Ordnung." }
+        ]
+      },
+      "results": {
+        "items": [
+          "Ein Ansprechpartner für mehrere Bedürfnisse",
+          "Konstante Standards und Transparenz",
+          "Besser gepflegte Außenbereiche",
+          "Weniger Koordinationsaufwand für Eigentümer"
+        ]
+      },
+      "cta": {
+        "heading": "Full-Service-Unterstützung gewünscht?",
+        "text": "Sagen Sie uns, was Sie benötigen – wir erstellen ein passendes Betreuungskonzept.",
+        "button": "Kontakt aufnehmen"
+      }
+    },
+    "natural-stone-pathway": {
+      "title": "Natursteinweg",
+      "description": "Ein handwerklich gefertigter Weg für bessere Nutzung und ein stimmiges Gartenbild.",
+      "overview": "Wir haben einen Natursteinweg geplant und gebaut, der sich zeitlos einfügt, sicher begehbar ist und die Gartenführung verbessert.",
+      "challenge": "Der bestehende Verlauf war unklar und bei Nässe rutschig, zudem fehlte eine saubere Einbindung in die Bepflanzung.",
+      "solution": "Mit stabilem Unterbau, passenden Steinen und sauberer Randgestaltung entstand ein natürlicher, harmonischer Übergang.",
+      "process": {
+        "steps": [
+          { "title": "Wegführung", "description": "Wir definierten Linie und Breite passend zum Garten." },
+          { "title": "Unterbau", "description": "Wir erstellten ein dauerhaftes, gut drainierendes Fundament." },
+          { "title": "Steinsetzung", "description": "Wir verlegten die Steine mit präzisen Fugen und sauberen Kanten." },
+          { "title": "Einbindung", "description": "Wir integrierten Ränder in Pflanzflächen und finalen Geländeabschluss." }
+        ]
+      },
+      "results": {
+        "items": [
+          "Sicherer Zugang bei jedem Wetter",
+          "Zeitlose Naturstein-Optik",
+          "Bessere Nutzung und Wegeführung",
+          "Saubere Übergänge zu Pflanzbereichen"
+        ]
+      },
+      "cta": {
+        "heading": "Interesse an Natursteinarbeiten?",
+        "text": "Wir beraten zu Materialien und bauen mit Blick auf Langlebigkeit.",
+        "button": "Offerte anfragen"
+      }
+    },
+    "modern-landscape-design": {
+      "title": "Moderne Gartengestaltung",
+      "description": "Zeitgemäßes Redesign mit funktionalen Zonen und klarer Struktur.",
+      "overview": "Wir entwickelten ein modernes Garten-Konzept mit definierten Bereichen zum Essen, Entspannen und Begrünen – Design und Alltagstauglichkeit in Balance.",
+      "challenge": "Fehlende Struktur und praktische Bereiche erschwerten Nutzung und Pflege.",
+      "solution": "Klare Linien, langlebige Oberflächen und eine pflegeleichte, moderne Bepflanzung schaffen Ordnung und Qualität.",
+      "process": {
+        "steps": [
+          { "title": "Konzept", "description": "Wir planten Zonen, Linienführung und Materialpalette." },
+          { "title": "Vorbereitung", "description": "Wir bereiteten Höhen, Unterbau und Leitungen vor." },
+          { "title": "Bau", "description": "Wir setzten Oberflächen, Kanten und Features präzise um." },
+          { "title": "Bepflanzung & Übergabe", "description": "Wir pflanzten, finalisierten Details und gaben Pflegehinweise." }
+        ]
+      },
+      "results": {
+        "items": [
+          "Klare Zonen für den Alltag",
+          "Moderner Look mit sauberen Details",
+          "Pflegeleichte Bepflanzung",
+          "Stimmiges Gesamtbild im ganzen Garten"
+        ]
+      },
+      "cta": {
+        "heading": "Bereit für ein modernes Redesign?",
+        "text": "Wir gestalten einen Garten, der gut aussieht und zu Ihrem Lebensstil passt.",
+        "button": "Planung starten"
+      }
+    }
+  }
+  ,
+  "references": {
+    "overline": "VERTRAUEN & ERFAHRUNG",
+    "heading": "Referenzen",
+    "subtitle": "Werfen Sie einen Blick auf unsere Referenzen und erleben Sie die Qualität unserer Arbeit durch die Stimmen zufriedener Kundinnen und Kunden.",
+    "footerNote": "Gerne stellen wir Ihnen auf Anfrage weitere Referenzen zur Verfügung.",
+    "card": {
+      "call": "Anrufen"
+    },
+    "cards": [
+      { "name": "Frau Schwab", "location": "Meilen", "phone": "044 923 41 50" },
+      { "name": "Frau Berts", "location": "Meilen", "phone": "044 923 26 60" },
+      { "name": "Herr Weidmann", "location": "Küsnacht", "phone": "044 910 92 76" },
+      { "name": "Herr Buser", "location": "Küsnacht", "phone": "044 910 53 90" }
+    ]
+  }
+}

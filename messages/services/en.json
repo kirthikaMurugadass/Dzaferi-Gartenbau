@@ -1,0 +1,122 @@
+{
+  "page": {
+    "title": "Services",
+    "description": "Professional garden construction, maintenance, property management, and winter services in the Zurich region.",
+    "hero": {
+      "overline": "OUR EXPERTISE",
+      "heading": "Professional Garden &",
+      "headingAccent": "Property Services",
+      "subtitle": "Comprehensive solutions for every season and every need.",
+      "viewServices": "View Services",
+      "breadcrumbHome": "Home",
+      "breadcrumbServices": "Services"
+    },
+    "section": {
+      "overline": "WHAT WE OFFER",
+      "heading": "Complete Service Suite",
+      "subtitle": "From design to maintenance, we handle every aspect of your outdoor spaces."
+    },
+    "ctaSubtitle": "Let's discuss your project — free consultation available."
+  },
+  "card": {
+    "learnMore": "Learn More",
+    "requestService": "Request This Service"
+  },
+  "detail": {
+    "backToServices": "Back to Services",
+    "overview": "Overview",
+    "detailedExplanation": "Detailed Service Explanation",
+    "whatWeOffer": "What We Offer",
+    "serviceHighlights": "Service Highlights",
+    "quickFacts": "Quick Facts",
+    "readyToStart": "Ready to Get Started?",
+    "readyToStartDescription": "Let's discuss your project needs. We offer free consultations to help you plan the perfect solution for your property.",
+    "requestConsultation": "Request a Free Consultation",
+    "trustedCertified": "Trusted & Certified",
+    "insured": "Insured",
+    "certified": "Certified",
+    "premium": "Premium",
+    "highlights": {
+      "insuredProfessionals": "Fully insured and certified professionals",
+      "flexibleScheduling": "Flexible scheduling to fit your needs",
+      "premiumQuality": "Premium quality materials and craftsmanship",
+      "satisfaction": "Satisfaction guaranteed on all projects",
+      "serviceArea": "Serving the entire Zurich region",
+      "maintenanceSupport": "Comprehensive maintenance support"
+    },
+    "facts": {
+      "duration": "Duration",
+      "durationValue": "Flexible scheduling",
+      "serviceArea": "Service Area",
+      "serviceAreaValue": "Zurich & surrounding regions",
+      "projectTypes": "Project Types",
+      "projectTypesValue": "Residential & commercial",
+      "maintenanceSupport": "Maintenance Support",
+      "maintenanceSupportValue": "Ongoing care available"
+    },
+    "ctaHeading": "Ready to Get Started?",
+    "ctaSubtitle": "Let's discuss your {service} needs. Free consultation available."
+  },
+  "list": {
+    "home-maintenance": {
+      "title": "Home maintenance",
+      "shortDescription": "Expert landscape design and construction using premium natural materials.",
+      "fullDescription": "We ensure regular maintenance and care of your property. Our home maintenance services include cleaning, high-pressure cleaning, comprehensive home service and reliable winter service.",
+      "detailedExplanation": [
+        "Our home maintenance service begins with a comprehensive property assessment, where our experienced team evaluates every aspect of your home's exterior condition, landscape health, and seasonal requirements. This initial evaluation allows us to create a customized maintenance plan tailored specifically to your property's unique characteristics, architectural style, and your personal preferences. We consider factors such as your home's age, materials used in construction, local climate patterns, and existing vegetation to develop a strategic approach that maximizes both aesthetic appeal and functional longevity. This personalized planning process ensures that no detail is overlooked and that our services align perfectly with your expectations and budget.",
+        "The practical application of our home maintenance services encompasses a wide range of essential tasks that work together to maintain your property's pristine condition. Our regular cleaning services include thorough exterior surface cleaning, window and door maintenance, gutter cleaning, and pathway care that keeps your property looking immaculate year-round. Our high-pressure cleaning expertise removes accumulated dirt, algae, moss, and other environmental deposits that can degrade surfaces over time, restoring the original beauty of stone, concrete, and other materials. During seasonal transitions, we provide comprehensive preparation services that protect your property from weather-related damage, including winterization procedures, spring cleanup, and autumn leaf management. Additionally, our team handles minor repairs, touch-ups, and preventative treatments that address small issues before they become costly problems, ensuring your property remains in optimal condition with minimal disruption to your daily life. The benefits of partnering with Dzaferi-Gartenbau for your home maintenance needs extend far beyond the immediate visual improvements—our professional maintenance program significantly increases your property's market value, prevents costly repairs through proactive care, and provides peace of mind knowing your property is being cared for by experienced professionals."
+      ],
+      "features": ["Natural stone work", "Retaining walls", "Seating areas", "Stone staircases", "Grading & excavation"]
+    },
+    "garden-maintenance": {
+      "title": "Garden Maintenance",
+      "shortDescription": "Year-round garden care from planting to pruning and professional felling.",
+      "fullDescription": "A well-kept garden is the figurehead of your home. We plant and care for trees, shrubs and plants. We also offer professional cutting, felling and removal of rootstocks.",
+      "detailedExplanation": [
+        "Our garden maintenance process begins with a thorough assessment of your landscape's current condition, plant health, soil quality, and overall design integrity. Our horticultural experts examine each tree, shrub, and plant to identify any health issues, nutrient deficiencies, or structural concerns that may require attention. We evaluate factors such as proper spacing, growth patterns, seasonal requirements, and compatibility between different plant species to ensure your garden maintains optimal health and visual harmony. This comprehensive evaluation forms the foundation of a personalized maintenance schedule that addresses immediate needs while planning for long-term growth and development. We consider your garden's exposure to sunlight, wind patterns, drainage characteristics, and local climate conditions to create a care program that works in harmony with nature rather than against it.",
+        "The practical execution of our garden maintenance services encompasses a complete range of horticultural practices designed to promote vigorous growth, prevent disease, and maintain aesthetic appeal. Our tree and shrub care services include professional pruning techniques that enhance natural form, encourage healthy growth patterns, and remove dead or diseased branches before they can compromise plant health. We employ proper timing and cutting methods that respect each plant's growth cycle, ensuring optimal results without causing stress or damage. Our planting services extend beyond simple installation—we carefully select appropriate species for your specific conditions, prepare soil properly with necessary amendments, and provide ongoing support during the critical establishment period. When removal becomes necessary, our professional felling and root removal services utilize specialized equipment and techniques to safely eliminate trees or stumps without damaging surrounding landscape features, structures, or underground utilities. The advantages of professional garden maintenance with Dzaferi-Gartenbau are both immediate and long-lasting—regular expert care ensures your plants reach their full potential, prevents common problems like disease and pest infestations, significantly increases your property's curb appeal and market value, and provides you with trusted experts available whenever questions arise or unexpected issues occur."
+      ],
+      "features": ["Tree & shrub care", "Planting", "Pruning", "Felling", "Root removal"]
+    },
+    "house-service": {
+      "title": "House Service",
+      "shortDescription": "Complete residential care from cleaning to lawn mowing and minor repairs.",
+      "fullDescription": "For the care and maintenance of your residential complexes, we offer our comprehensive house service, which includes cleaning work, mowing the lawn, weeding, pruning plants, minor repairs and cleaning windows and doors.",
+      "detailedExplanation": [
+        "The foundation of our house service program lies in our systematic approach to property maintenance, which begins with a comprehensive assessment of your residential complex's specific needs, layout, and maintenance requirements. We work closely with property owners and managers to understand their priorities, budget constraints, and quality expectations, then develop a customized service plan that addresses routine maintenance tasks, seasonal requirements, and any special considerations unique to your property. Our cleaning services encompass both interior common areas and exterior surfaces, including thorough cleaning of entryways, hallways, stairwells, and shared spaces that create positive first impressions for residents and visitors. Exterior cleaning includes pressure washing of walkways, driveways, and building facades, removal of debris and litter, and maintenance of outdoor common areas. Our landscaping services maintain lawns, gardens, and green spaces with professional mowing, edging, weeding, and plant care that keeps your property looking polished and well-maintained throughout the year.",
+        "Beyond routine maintenance, our house service includes proactive care that prevents problems before they become costly issues. Our team conducts regular inspections to identify potential concerns such as loose fixtures, damaged surfaces, drainage issues, or safety hazards, addressing them promptly with minor repairs that maintain your property's integrity and appearance. Window and door cleaning services ensure that natural light flows freely into common areas and that entry points present a welcoming, professional appearance. We handle seasonal transitions with comprehensive preparations, including autumn leaf removal, winter pathway maintenance, spring cleanup, and summer landscape care that adapts to changing weather conditions. Our responsive repair services address minor issues quickly and efficiently, preventing small problems from escalating into major expenses. The value proposition of our comprehensive house service extends far beyond the immediate visual improvements—property owners benefit from increased property values, reduced resident complaints, improved tenant satisfaction and retention rates, and peace of mind knowing their investment is protected by experienced professionals who maintain residential properties to the highest standards."
+      ],
+      "features": ["Cleaning", "Lawn mowing", "Weeding", "Plant trimming", "Minor repairs", "Window cleaning"]
+    },
+    "horiculture": {
+      "title": "Horiculture",
+      "shortDescription": "Comprehensive ongoing maintenance and full-service caretaking.",
+      "fullDescription": "We design and build your dream garden: natural stones, stone walls, seating areas, stone stairs, levelling and dredging.",
+      "detailedExplanation": [
+        "Our horticultural design and construction process begins with an in-depth consultation where we explore your vision, lifestyle needs, and aesthetic preferences while carefully assessing your property's unique characteristics. We analyze factors such as soil composition, drainage patterns, sun exposure, existing vegetation, and architectural style to create a design that harmonizes perfectly with your home and natural surroundings. Our expertise in working with natural stone allows us to create stunning features including elegant retaining walls that solve drainage and elevation challenges while adding structural beauty, carefully crafted seating areas that become natural gathering spaces, and graceful stone staircases that provide safe, attractive access throughout your landscape. We employ professional grading and excavation techniques to shape your terrain optimally, ensuring proper drainage, creating visual interest through elevation changes, and preparing the foundation for successful plantings. Throughout the construction process, we maintain meticulous attention to detail, ensuring that every stone is placed with precision, every surface is finished to perfection, and every element contributes to the overall harmony and functionality of your outdoor space.",
+        "The practical implementation of our horticultural services combines expert plant selection with professional installation techniques that ensure optimal growth and long-term success. We carefully choose plant species that thrive in your specific conditions, considering factors such as climate hardiness, soil preferences, water requirements, and maintenance needs to create a garden that is both beautiful and sustainable. Our planting techniques include proper soil preparation, appropriate spacing for mature growth, and installation methods that promote healthy root development. We integrate plants with hardscape elements seamlessly, creating transitions between built and natural features that feel organic and intentional. Our ongoing maintenance services ensure that your horticultural investment continues to develop beautifully, with regular care that includes pruning, fertilizing, pest management, and seasonal adjustments that keep your garden looking its best throughout the year. The benefits of professional horticultural services extend far beyond the immediate visual impact—a well-executed horticultural project significantly increases your property's market value, creates functional outdoor spaces that improve your daily quality of life, and ensures your garden is created and maintained using best practices that promote environmental health and create sustainable beauty for generations to enjoy."
+      ],
+      "features": ["Regular maintenance", "Cleaning", "Pressure washing", "Full-service caretaking"]
+    },
+    "winter-service": {
+      "title": "Winter Service",
+      "shortDescription": "Snow removal, gritting, and pathway clearing for safe winter access.",
+      "fullDescription": "In the winter season, we offer you a professional snow removal and gritting service. Contact us for more information and to plan your winter service.",
+      "detailedExplanation": [
+        "Our winter service begins with proactive planning and preparation that ensures we're ready to respond immediately when winter weather arrives. We conduct pre-season assessments of your property to identify critical areas requiring attention, understand traffic patterns and access requirements, and develop strategic plans for efficient snow removal and ice management. This preparation includes ensuring that all pathways, driveways, parking areas, and emergency access routes are clearly identified and prioritized for service. We establish clear communication protocols that allow property owners to request service when needed while also maintaining proactive monitoring of weather forecasts to anticipate service requirements. Our team is trained in the most effective techniques for snow removal, including proper plowing patterns that minimize damage to surfaces, efficient snow stacking that maximizes available space, and thorough clearing that ensures complete accessibility. We understand the importance of timing in winter service, responding quickly to snowfall to prevent accumulation that becomes difficult to manage and ensuring that pathways remain clear throughout the day as conditions change.",
+        "The execution of our winter service encompasses comprehensive snow removal and ice prevention that maintains safe conditions across your entire property. Our snow removal services utilize professional equipment appropriate for the scale of your property, from walk-behind snow blowers for pathways and smaller areas to truck-mounted plows for extensive driveways and parking lots. We employ techniques that remove snow completely rather than simply pushing it aside, ensuring that pathways remain clear and accessible. Our gritting and salting services apply appropriate materials at optimal times to prevent ice formation, using environmentally responsible products that effectively melt ice while minimizing impact on surrounding vegetation and surfaces. The value of professional winter service extends beyond the immediate benefit of clear pathways and safe access—property owners benefit from reduced liability exposure, reliable service that maintains normal operations, protection of property surfaces from damage, and peace of mind knowing that regardless of weather conditions, their property will be maintained professionally and safely throughout the entire winter season."
+      ],
+      "features": ["Snow removal", "Gritting & salting", "Pathway clearing", "Seasonal readiness"]
+    },
+    "consultation": {
+      "title": "Consultation & Design",
+      "shortDescription": "Garden design, planning, material selection, and project scoping.",
+      "fullDescription": "Every great garden begins with a conversation. We start by listening — to your ideas, your lifestyle, your vision.",
+      "detailedExplanation": [
+        "Our consultation process begins with an in-depth meeting where we explore your vision, lifestyle, and goals while conducting a thorough site analysis that informs all design decisions. We discuss how you envision using your outdoor space—whether for quiet relaxation, entertaining guests, children's play, or a combination of purposes—and we consider factors such as privacy needs, maintenance preferences, and long-term plans for your property. Our site analysis examines critical elements including soil conditions, drainage patterns, sun and shade exposure throughout the day and seasons, existing vegetation, architectural style of your home, and any site constraints or opportunities that will influence the design. We also discuss your budget parameters and timeline expectations, ensuring that our design recommendations align with your financial considerations while maximizing value and impact. This comprehensive consultation process allows us to develop a deep understanding of your needs and preferences, which forms the foundation for a design that feels uniquely yours while incorporating professional expertise that elevates the final result beyond what you might have imagined possible.",
+        "The design development phase transforms the insights gathered during consultation into detailed plans that serve as blueprints for construction and as visual tools that help you envision the final result. Our design process includes creating conceptual plans that explore different layout options, material selections that balance aesthetics with durability and maintenance requirements, and plant palettes that thrive in your specific conditions while achieving your desired visual effect. We consider the relationship between different garden areas, creating flow and transitions that make the entire space feel cohesive and intentional. Our material selection expertise ensures that hardscape elements such as natural stone, paving materials, and construction details are chosen for their beauty, functionality, and appropriateness for your climate and usage patterns. The benefits of investing in professional consultation and design services extend far beyond the immediate value of having detailed plans—a well-designed garden plan ensures your investment is directed toward elements that provide maximum impact, prevents costly mistakes during construction, helps you avoid common pitfalls, and gives you confidence knowing your garden project is guided by experienced professionals who understand both the artistic and practical aspects of creating beautiful outdoor spaces."
+      ],
+      "features": ["Garden design", "Planning", "Material selection", "Project scoping"]
+    }
+  }
+}

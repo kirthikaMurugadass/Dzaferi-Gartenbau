@@ -1,0 +1,85 @@
+{
+  "hero": {
+    "overline": "PREMIUM GARTENBAU",
+    "heading": "Wir schaffen Gärten, die",
+    "headingAccent": "inspirieren",
+    "subtitle": "Experten für Gartenbau, Pflege und Objektservice in der Region Zürich. Von Anfang an verwandeln wir Außenbereiche in lebendige Meisterwerke.",
+    "primaryCta": "Unsere Arbeit entdecken",
+    "secondaryCta": "Kontakt"
+  },
+  "trustBar": {
+    "items": ["Über 15 Jahre Erfahrung", "200+ abgeschlossene Projekte", "Region Zürich", "Schweizer Qualität"]
+  },
+  "servicesOverview": {
+    "overline": "WAS WIR TUN",
+    "heading": "Umfassende Garten- und Objektservices",
+    "subtitle": "Von der Gartengestaltung bis zur ganzjährigen Pflege – wir kümmern uns um jeden Aspekt Ihrer Außenanlagen.",
+    "viewAll": "Alle Dienstleistungen anzeigen",
+    "cards": [
+      { "title": "Hauswartung", "description": "Professionelle Gartengestaltung und -bau mit hochwertigen Naturmaterialien." },
+      { "title": "Gartenpflege", "description": "Ganzjährige Gartenpflege von der Bepflanzung über den Schnitt bis zur fachgerechten Fällung." },
+      { "title": "Hausdienst", "description": "Komplette Objektbetreuung von der Reinigung über Rasenmähen bis zu kleinen Reparaturen." }
+    ]
+  },
+  "featuredProjects": {
+    "overline": "UNSERE ARBEIT",
+    "heading": "Aktuelle Gartenprojekte",
+    "subtitle": "Sehen Sie, wie wir Hausbesitzern in der Region Zürich zu ihrem Traumgarten verholfen haben.",
+    "viewAll": "Alle Projekte anzeigen",
+    "viewProject": "Projekt anzeigen",
+    "cards": [
+      { "title": "Luxus-Gartengestaltung", "location": "Küsnacht, Zürich" },
+      { "title": "Villa-Terrasse & Steinarbeit", "location": "Thalwil, Zürich" },
+      { "title": "Ganzjährige Gartenpflege", "location": "Egg, Zürich" },
+      { "title": "Komplette Objektbetreuung", "location": "Horgen, Zürich" },
+      { "title": "Natursteinweg", "location": "Zollikon, Zürich" },
+      { "title": "Moderne Gartengestaltung", "location": "Kilchberg, Zürich" }
+    ]
+  },
+  "whyChooseUs": {
+    "overline": "WARUM DZAFERI",
+    "heading": "Vertrauen von Hauseigentümern in der ganzen Schweiz",
+    "items": [
+      { "title": "Jahrzehntelange Erfahrung", "description": "Über 15 Jahre professionelle Erfahrung im Gartenbau und in der Objektbetreuung. Unser Team bringt bewährtes Fachwissen in jedes Projekt ein." },
+      { "title": "Persönliche Betreuung", "description": "Wir behandeln jedes Projekt als einzigartig. Direkte Kommunikation mit unserem Team stellt sicher, dass Ihre Vorstellungen verstanden und mit Sorgfalt umgesetzt werden." },
+      { "title": "Schweizer Qualitätsstandards", "description": "Präzision, Zuverlässigkeit und Handwerkskunst sind für uns selbstverständlich. Wir liefern Arbeiten, die den höchsten Schweizer Ansprüchen genügen." },
+      { "title": "Ganzjähriger Service", "description": "Von der Bepflanzung im Frühling bis zum Winterdienst – wir sind für Sie da, wenn Sie uns brauchen. Konstante Betreuung, zu jeder Jahreszeit." }
+    ]
+  },
+  "stats": {
+    "items": ["Jahre Erfahrung", "Abgeschlossene Projekte", "Aktive Wartungskunden", "Kundenzufriedenheit"]
+  },
+  "howWeWork": {
+    "overline": "SO ARBEITEN WIR",
+    "heading": "Von der Vision zur Realität",
+    "subtitle": "Unser bewährter Prozess sorgt bei jedem Projekt für herausragende Ergebnisse.",
+    "steps": [
+      { "title": "Beratung", "description": "Wir hören Ihnen zu, verstehen Ihre Wünsche und analysieren die Gegebenheiten vor Ort." },
+      { "title": "Planung & Konzept", "description": "Wir erstellen einen detaillierten Plan, der exakt auf Ihre Bedürfnisse abgestimmt ist." },
+      { "title": "Fachgerechte Ausführung", "description": "Unser Team setzt das Konzept präzise um – mit Sorgfalt, Erfahrung und Liebe zum Detail." },
+      { "title": "Laufende Pflege", "description": "Wir erhalten die Schönheit Ihres Gartens das ganze Jahr über – zuverlässig und professionell." }
+    ]
+  },
+  "testimonials": {
+    "overline": "STIMMEN UNSERER KUNDEN",
+    "heading": "Was unsere Kunden sagen",
+    "cards": [
+      { "quote": "Dzaferi Gartenbau hat unseren Garten in ein wahres Paradies verwandelt. Professionell, zuverlässig und kreativ.", "clientName": "S. Anna", "clientLocation": "Hauseigentümer, Zürich" },
+      { "quote": "Die Liebe zum Detail und die Qualität der Arbeit sind außergewöhnlich. Unser Außenbereich war noch nie so schön.", "clientName": "M. Muller", "clientLocation": "Villenbesitzer, Küsnacht" },
+      { "quote": "Vertrauenswürdig und professionell. Sie betreuen unser Objekt seit Jahren – wir sind rundum zufrieden.", "clientName": "T. Markus", "clientLocation": "Objektverwaltung, Thalwil" }
+    ]
+  },
+  "featureCards": {
+    "cards": [
+      { "title": "Über uns", "caption": "Lernen Sie das Team kennen, das hinter jedem Garten steht. Unsere Geschichte, Werte und unser Bekenntnis zu Schweizer Qualität." },
+      { "title": "Dienstleistungen", "caption": "Von der Gartengestaltung bis zur ganzjährigen Pflege. Umfassende Lösungen für jeden Außenbereich." },
+      { "title": "Garten- & Hauswartung", "caption": "Fachgerechte Pflege, die Ihr Objekt in Schuss hält. Saisonale Betreuung, hohe Standards, Rundum-Sorglos." }
+    ]
+  },
+  "cta": {
+    "heading": "Bereit, Ihren Außenbereich zu verwandeln?",
+    "subtitle": "Lassen Sie uns über Ihre Vorstellungen sprechen. Wir bieten eine kostenlose Erstberatung.",
+    "primaryCta": "Kontakt aufnehmen",
+    "secondaryCta": "079 402 56 21"
+  }
+}

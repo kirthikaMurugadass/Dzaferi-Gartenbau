@@ -1,0 +1,24 @@
+{
+  "nav": {
+    "home": "Home",
+    "services": "Services",
+    "projects": "Projects",
+    "about": "About",
+    "contact": "Contact",
+    "getInTouch": "Get in Touch"
+  },
+  "cta": {
+    "learnMore": "Learn More",
+    "requestService": "Request This Service",
+    "viewProjects": "View Projects",
+    "contactUs": "Contact Us",
+    "getFreeConsultation": "Get Free Consultation",
+    "bookService": "Book This Service"
+  },
+  "ctaBanner": {
+    "heading": "Ready to Transform Your Outdoor Space?",
+    "subtitle": "Let's discuss your vision. Get in touch for a free consultation.",
+    "primaryButton": "Contact Us",
+    "secondaryButton": "079 402 56 21"
+  }
+}

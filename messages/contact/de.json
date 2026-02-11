@@ -1,0 +1,73 @@
+{
+  "page": {
+    "title": "Kontakt",
+    "description": "Kontaktieren Sie uns für eine kostenlose Beratung zu Ihrem Gartenprojekt. Wir antworten innerhalb von 24 Stunden.",
+    "hero": {
+      "overline": "KONTAKT AUFNEHMEN",
+      "heading": "Lassen Sie uns gemeinsam",
+      "headingAccent": "etwas Schönes",
+      "headingSuffix": "erschaffen",
+      "subtitle": "Kontaktieren Sie uns für eine kostenlose Beratung zu Ihrem Gartenprojekt. Wir antworten innerhalb von 24 Stunden.",
+      "getConsultation": "Kostenlose Beratung"
+    },
+    "section": {
+      "overline": "KONTAKT",
+      "heading": "Wie können wir helfen?",
+      "subtitle": "Wählen Sie Ihre bevorzugte Kontaktmöglichkeit.",
+      "sendMessage": "Nachricht senden",
+      "ourLocation": "Standort",
+      "businessHours": "Geschäftszeiten",
+      "respondWithin": "Wir antworten innerhalb von 24 Stunden",
+      "hoursWeekdays": "Mo–Fr 7:00–18:00",
+      "hoursSaturday": "Sa 8:00–14:00",
+      "mapTitle": "Dzaferi-Gartenbau Standort"
+    },
+    "form": {
+      "labels": {
+        "fullName": "Name *",
+        "email": "E-Mail-Adresse *",
+        "phone": "Telefonnummer",
+        "serviceInterest": "Gewünschte Leistung",
+        "projectDescription": "Projektbeschreibung *"
+      },
+      "placeholders": {
+        "name": "Ihr Name",
+        "email": "ihre@email.com",
+        "phone": "079 123 45 67",
+        "message": "Erzählen Sie uns von Ihrem Projekt..."
+      },
+      "serviceOptions": {
+        "select": "Leistung auswählen",
+        "gardenConstruction": "Gartenbau",
+        "gardenCare": "Gartenpflege",
+        "propertyManagement": "Objektbetreuung",
+        "winterService": "Winterdienst",
+        "other": "Sonstiges"
+      },
+      "submit": "Anfrage senden",
+      "sending": "Wird gesendet...",
+      "successTitle": "Nachricht gesendet!",
+      "successMessage": "Vielen Dank für Ihre Nachricht. Wir antworten innerhalb von 24 Stunden.",
+      "errorGeneric": "Etwas ist schiefgelaufen. Bitte versuchen Sie es erneut oder rufen Sie uns an.",
+      "errors": {
+        "nameMin": "Name muss mindestens 2 Zeichen haben",
+        "emailInvalid": "Bitte geben Sie eine gültige E-Mail-Adresse ein",
+        "messageMin": "Nachricht muss mindestens 10 Zeichen haben"
+      }
+    },
+    "methods": {
+      "callUs": "Anrufen",
+      "emailUs": "E-Mail",
+      "visitUs": "Besuchen",
+      "callNow": "Jetzt anrufen",
+      "sendEmail": "E-Mail senden",
+      "getDirections": "Route planen"
+    },
+    "cta": {
+      "heading": "Bereit, Ihren Außenbereich zu verwandeln?",
+      "subtitle": "Lassen Sie uns über Ihre Vorstellungen sprechen. Wir bieten eine kostenlose Erstberatung.",
+      "primaryCta": "Kontakt aufnehmen",
+      "secondaryCta": "079 402 56 21"
+    }
+  }
+}

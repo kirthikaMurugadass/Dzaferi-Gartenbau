@@ -1,0 +1,24 @@
+{
+  "nav": {
+    "home": "Startseite",
+    "services": "Dienstleistungen",
+    "projects": "Projekte",
+    "about": "Über uns",
+    "contact": "Kontakt",
+    "getInTouch": "Kontakt aufnehmen"
+  },
+  "cta": {
+    "learnMore": "Mehr erfahren",
+    "requestService": "Dienst anfragen",
+    "viewProjects": "Projekte ansehen",
+    "contactUs": "Kontakt",
+    "getFreeConsultation": "Kostenlose Beratung",
+    "bookService": "Dienst buchen"
+  },
+  "ctaBanner": {
+    "heading": "Bereit, Ihren Außenbereich zu verwandeln?",
+    "subtitle": "Lassen Sie uns über Ihre Vision sprechen. Kontaktieren Sie uns für eine kostenlose Beratung.",
+    "primaryButton": "Kontakt aufnehmen",
+    "secondaryButton": "079 402 56 21"
+  }
+}

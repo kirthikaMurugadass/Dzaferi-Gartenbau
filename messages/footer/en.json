@@ -1,0 +1,23 @@
+{
+  "description": "Expert garden construction, maintenance, and property services across the Zurich region.",
+  "services": "Services",
+  "company": "Company",
+  "contact": "Contact",
+  "nav": {
+    "services": {
+      "homeMaintenance": "Home maintenance",
+      "gardenCare": "Garden Care",
+      "horiculture": "Horiculture",
+      "winterService": "Winter Service"
+    },
+    "company": {
+      "about": "About",
+      "projects": "Projects",
+      "contact": "Contact"
+    }
+  },
+  "copyright": "All rights reserved.",
+  "impressum": "Impressum",
+  "privacy": "Privacy Policy",
+  "madeIn": "Made in Switzerland"
+}

@@ -1,0 +1,201 @@
+{
+  "page": {
+    "title": "Datenschutzerklärung",
+    "description": "Datenschutzerklärung und Datenschutzinformationen der Dzaferi-Gartenbau GmbH.",
+    "lastUpdated": "Letzte Aktualisierung: Februar 2026"
+  },
+  "sections": {
+    "introduction": {
+      "heading": "Einleitung",
+      "content": [
+        "Die Dzaferi-Gartenbau GmbH (\"wir\", \"uns\" oder \"unser\") verpflichtet sich, Ihre Privatsphäre zu schützen und die Sicherheit Ihrer personenbezogenen Daten zu gewährleisten. Diese Datenschutzerklärung erläutert, wie wir Ihre Informationen erfassen, verwenden, offenlegen und schützen, wenn Sie unsere Website besuchen oder unsere Dienstleistungen nutzen.",
+        "Wir halten uns an das Schweizer Bundesgesetz über den Datenschutz (DSG) und die Datenschutz-Grundverordnung (DSGVO), wo anwendbar. Durch die Nutzung unserer Website und Dienstleistungen stimmen Sie den in dieser Richtlinie beschriebenen Datenpraktiken zu."
+      ]
+    },
+    "dataController": {
+      "heading": "Verantwortliche Stelle",
+      "content": [
+        "Die für Ihre personenbezogenen Daten verantwortliche Stelle ist:"
+      ],
+      "company": {
+        "name": "Dzaferi-Gartenbau GmbH",
+        "address": "Seestrasse 187, 8810 Horgen, Schweiz",
+        "phone": "Tel: +41 79 402 56 21",
+        "email": "E-Mail: info@dzaferi-gartenbau.ch"
+      }
+    },
+    "dataCollection": {
+      "heading": "Datenerfassung und -verwendung",
+      "intro": "Wir erfassen und verarbeiten die folgenden Arten personenbezogener Daten:",
+      "types": [
+        {
+          "title": "Kontaktinformationen",
+          "description": "Wenn Sie uns über unsere Website-Formulare oder per E-Mail kontaktieren, erfassen wir Ihren Namen, Ihre E-Mail-Adresse, Telefonnummer und alle anderen Informationen, die Sie in Ihrer Nachricht angeben. Diese Daten werden ausschließlich verwendet, um auf Ihre Anfragen zu antworten und die angeforderten Dienstleistungen bereitzustellen."
+        },
+        {
+          "title": "Website-Nutzungsdaten",
+          "description": "Wir erfassen automatisch bestimmte technische Informationen, wenn Sie unsere Website besuchen, einschließlich Ihrer IP-Adresse, Ihres Browsertyps, Geräteinformationen, besuchten Seiten und Zugriffszeiten. Diese Daten helfen uns, unsere Website-Leistung und Benutzererfahrung zu verbessern."
+        },
+        {
+          "title": "Dienstleistungsbezogene Daten",
+          "description": "Wenn Sie unsere Dienstleistungen in Anspruch nehmen, erfassen wir Informationen, die zur Erfüllung unserer vertraglichen Verpflichtungen erforderlich sind, wie z. B. Objektadresse, Dienstleistungsanforderungen, Projektspezifikationen und Rechnungsinformationen."
+        }
+      ]
+    },
+    "legalBasis": {
+      "heading": "Rechtsgrundlage für die Verarbeitung",
+      "content": [
+        "Wir verarbeiten Ihre personenbezogenen Daten auf der Grundlage folgender Rechtsgrundlagen:"
+      ],
+      "bases": [
+        "**Vertragliche Notwendigkeit**: Die Verarbeitung ist zur Erfüllung unserer Dienstleistungsverträge mit Ihnen erforderlich",
+        "**Berechtigtes Interesse**: Die Verarbeitung ist für unsere berechtigten Geschäftsinteressen erforderlich, wie z. B. die Verbesserung unserer Dienstleistungen und die Aufrechterhaltung der Website-Sicherheit",
+        "**Einwilligung**: Sie haben Ihre ausdrückliche Einwilligung für bestimmte Verarbeitungsaktivitäten gegeben",
+        "**Rechtliche Verpflichtung**: Die Verarbeitung ist zur Einhaltung geltender Gesetze und Vorschriften erforderlich"
+      ]
+    },
+    "cookies": {
+      "heading": "Cookies und Tracking-Technologien",
+      "content": [
+        "Unsere Website verwendet Cookies und ähnliche Tracking-Technologien, um Ihr Surferlebnis zu verbessern und den Website-Verkehr zu analysieren. Cookies sind kleine Textdateien, die auf Ihrem Gerät gespeichert werden und uns helfen, Ihre Präferenzen zu speichern und zu verstehen, wie Sie unsere Website nutzen.",
+        "Wir verwenden die folgenden Arten von Cookies:"
+      ],
+      "types": [
+        "**Notwendige Cookies**: Erforderlich für grundlegende Website-Funktionalität und Sicherheit",
+        "**Leistungs-Cookies**: Helfen uns zu verstehen, wie Besucher mit unserer Website interagieren, indem sie anonyme statistische Daten sammeln",
+        "**Funktionale Cookies**: Speichern Ihre Präferenzen und Einstellungen, um erweiterte Funktionen bereitzustellen"
+      ],
+      "control": "Sie können Cookie-Präferenzen über Ihre Browsereinstellungen steuern. Das Deaktivieren bestimmter Cookies kann jedoch die Website-Funktionalität beeinträchtigen."
+    },
+    "hosting": {
+      "heading": "Hosting und Datenspeicherung",
+      "content": [
+        "Unsere Website wird auf sicheren Servern in der Schweiz und der Europäischen Union gehostet. Wir implementieren angemessene technische und organisatorische Maßnahmen zum Schutz Ihrer personenbezogenen Daten vor unbefugtem Zugriff, Änderung, Offenlegung oder Zerstörung.",
+        "Ihre Daten werden so lange gespeichert, wie es zur Erfüllung der in dieser Richtlinie beschriebenen Zwecke, zur Einhaltung gesetzlicher Verpflichtungen, zur Beilegung von Streitigkeiten und zur Durchsetzung unserer Vereinbarungen erforderlich ist."
+      ]
+    },
+    "contactForms": {
+      "heading": "Kontaktformulare und Kommunikation",
+      "content": [
+        "Wenn Sie ein Kontaktformular absenden oder uns eine E-Mail senden, werden Ihre Daten sicher übertragen und in unserem Kundenmanagement-System gespeichert. Wir verwenden diese Informationen ausschließlich, um auf Ihre Anfrage zu antworten und die von Ihnen angeforderten Dienstleistungen bereitzustellen.",
+        "Ihre Kontaktinformationen werden niemals ohne Ihre ausdrückliche Zustimmung an Dritte für Marketingzwecke verkauft, vermietet oder weitergegeben."
+      ]
+    },
+    "analytics": {
+      "heading": "Website-Analyse",
+      "content": [
+        "Wir können Web-Analyse-Dienste verwenden, um den Website-Verkehr und das Nutzerverhalten zu analysieren. Diese Dienste verwenden Cookies und ähnliche Technologien, um anonyme Daten über Website-Nutzungsmuster zu sammeln.",
+        "Analysedaten werden in aggregierter Form verarbeitet und identifizieren keine einzelnen Benutzer persönlich. Diese Informationen helfen uns, unser Website-Design, den Inhalt und die allgemeine Benutzererfahrung zu verbessern."
+      ]
+    },
+    "dataSharing": {
+      "heading": "Datenweitergabe und Offenlegung",
+      "content": [
+        "Wir verkaufen oder vermieten Ihre personenbezogenen Daten nicht an Dritte. Wir können Ihre Informationen nur unter den folgenden Umständen weitergeben:"
+      ],
+      "circumstances": [
+        "**Dienstleister**: Wir können Daten mit vertrauenswürdigen Drittanbietern teilen, die uns beim Betrieb unserer Website und der Erbringung von Dienstleistungen unterstützen, vorbehaltlich strenger Vertraulichkeitsvereinbarungen",
+        "**Rechtliche Anforderungen**: Wir können Informationen offenlegen, wenn dies gesetzlich, durch Vorschriften, rechtliche Verfahren oder behördliche Anforderungen erforderlich ist",
+        "**Unternehmensübertragungen**: Im Falle einer Fusion, Übernahme oder eines Verkaufs von Vermögenswerten können Ihre Daten an das übernehmende Unternehmen übertragen werden",
+        "**Schutz von Rechten**: Wir können Informationen offenlegen, um unsere Rechte, unser Eigentum, unsere Sicherheit oder die anderer zu schützen"
+      ]
+    },
+    "dataRetention": {
+      "heading": "Datenspeicherung",
+      "content": [
+        "Wir bewahren personenbezogene Daten nur so lange auf, wie es zur Erfüllung der in dieser Richtlinie beschriebenen Zwecke erforderlich ist:",
+        "**Kontaktanfragen**: Bis zu 2 Jahre nach dem letzten Kontakt gespeichert, es sei denn, Sie fordern eine frühere Löschung an",
+        "**Kundendaten**: Für die Dauer unserer Geschäftsbeziehung und bis zu 10 Jahre danach gespeichert, um den Schweizer Handels- und Steuerrechtsanforderungen zu entsprechen",
+        "**Website-Analysen**: Anonyme Nutzungsdaten werden bis zu 26 Monate gespeichert"
+      ]
+    },
+    "yourRights": {
+      "heading": "Ihre Rechte",
+      "intro": "Gemäß den geltenden Datenschutzgesetzen haben Sie die folgenden Rechte in Bezug auf Ihre personenbezogenen Daten:",
+      "rights": [
+        {
+          "title": "Auskunftsrecht",
+          "description": "Sie haben das Recht, die Bestätigung zu verlangen, ob wir Ihre personenbezogenen Daten verarbeiten, und eine Kopie dieser Daten zu erhalten"
+        },
+        {
+          "title": "Recht auf Berichtigung",
+          "description": "Sie können die Korrektur unrichtiger oder unvollständiger personenbezogener Daten verlangen"
+        },
+        {
+          "title": "Recht auf Löschung",
+          "description": "Sie können die Löschung Ihrer personenbezogenen Daten verlangen, wenn diese für die Zwecke, für die sie erhoben wurden, nicht mehr erforderlich sind"
+        },
+        {
+          "title": "Recht auf Einschränkung",
+          "description": "Sie können unter bestimmten Umständen die Einschränkung der Verarbeitung verlangen"
+        },
+        {
+          "title": "Recht auf Datenübertragbarkeit",
+          "description": "Sie können verlangen, Ihre personenbezogenen Daten in einem strukturierten, gängigen und maschinenlesbaren Format zu erhalten"
+        },
+        {
+          "title": "Widerspruchsrecht",
+          "description": "Sie können der Verarbeitung aus berechtigten Interessen oder für Direktmarketingzwecke widersprechen"
+        },
+        {
+          "title": "Recht auf Widerruf der Einwilligung",
+          "description": "Wenn die Verarbeitung auf Ihrer Einwilligung beruht, können Sie Ihre Einwilligung jederzeit widerrufen"
+        }
+      ],
+      "contact": "Um eines dieser Rechte auszuüben, kontaktieren Sie uns bitte unter Verwendung der im Abschnitt Kontakt angegebenen Informationen."
+    },
+    "security": {
+      "heading": "Sicherheitsmaßnahmen",
+      "content": [
+        "Wir implementieren branchenübliche Sicherheitsmaßnahmen zum Schutz Ihrer personenbezogenen Daten, einschließlich:",
+        "**SSL/TLS-Verschlüsselung**: Alle Daten, die zwischen Ihrem Browser und unserer Website übertragen werden, werden mit Secure Socket Layer (SSL)-Technologie verschlüsselt",
+        "**Zugriffskontrollen**: Personenbezogene Daten sind nur für autorisiertes Personal zugänglich, das sie zur Erfüllung seiner Aufgaben benötigt",
+        "**Regelmäßige Sicherheitsbewertungen**: Wir überprüfen und aktualisieren unsere Sicherheitspraktiken regelmäßig, um aufkommenden Bedrohungen zu begegnen",
+        "**Sichere Datenspeicherung**: Personenbezogene Daten werden auf sicheren Servern mit angemessenen Backup- und Notfallwiederherstellungsverfahren gespeichert",
+        "Während wir uns bemühen, kommerziell akzeptable Mittel zum Schutz Ihrer personenbezogenen Daten zu verwenden, ist keine Methode der Übertragung über das Internet oder der elektronischen Speicherung zu 100 % sicher. Wir können keine absolute Sicherheit garantieren, verpflichten uns jedoch, Ihre Informationen nach besten Kräften zu schützen."
+      ]
+    },
+    "thirdPartyLinks": {
+      "heading": "Links zu Drittanbieter-Websites",
+      "content": [
+        "Unsere Website kann Links zu Drittanbieter-Websites enthalten, die nicht von uns betrieben werden. Wir haben keine Kontrolle über und übernehmen keine Verantwortung für den Inhalt, die Datenschutzrichtlinien oder die Praktiken von Drittanbieter-Websites oder -Diensten.",
+        "Wir empfehlen Ihnen, die Datenschutzrichtlinie jeder Drittanbieter-Website zu überprüfen, die Sie besuchen, bevor Sie personenbezogene Informationen angeben."
+      ]
+    },
+    "childrenPrivacy": {
+      "heading": "Datenschutz für Kinder",
+      "content": [
+        "Unsere Dienstleistungen richten sich nicht an Personen unter 16 Jahren. Wir erfassen wissentlich keine personenbezogenen Daten von Kindern. Wenn Sie feststellen, dass ein Kind uns personenbezogene Daten zur Verfügung gestellt hat, kontaktieren Sie uns bitte, und wir werden Schritte unternehmen, um solche Informationen zu löschen."
+      ]
+    },
+    "changes": {
+      "heading": "Änderungen dieser Datenschutzerklärung",
+      "content": [
+        "Wir können diese Datenschutzerklärung von Zeit zu Zeit aktualisieren, um Änderungen in unseren Praktiken, Technologien, rechtlichen Anforderungen oder anderen Faktoren widerzuspiegeln. Wir werden Sie über wesentliche Änderungen informieren, indem wir die aktualisierte Richtlinie auf dieser Seite mit einem neuen Datum \"Letzte Aktualisierung\" veröffentlichen.",
+        "Wir empfehlen Ihnen, diese Datenschutzerklärung regelmäßig zu überprüfen, um darüber informiert zu bleiben, wie wir Ihre personenbezogenen Daten schützen."
+      ]
+    },
+    "contact": {
+      "heading": "Kontakt",
+      "intro": "Wenn Sie Fragen, Bedenken oder Anfragen bezüglich dieser Datenschutzerklärung oder unserer Datenschutzpraktiken haben, kontaktieren Sie uns bitte:",
+      "methods": [
+        "**Per E-Mail**: info@dzaferi-gartenbau.ch",
+        "**Per Telefon**: +41 79 402 56 21",
+        "**Per Post**: Dzaferi-Gartenbau GmbH, Seestrasse 187, 8810 Horgen, Schweiz"
+      ],
+      "footer": "Wir werden Ihre Anfrage so schnell wie möglich beantworten, in der Regel innerhalb von 30 Tagen."
+    },
+    "supervisoryAuthority": {
+      "heading": "Aufsichtsbehörde",
+      "content": [
+        "Wenn Sie der Ansicht sind, dass Ihre Datenschutzrechte verletzt wurden, haben Sie das Recht, eine Beschwerde bei der zuständigen Aufsichtsbehörde einzureichen:",
+        "**Eidgenössischer Datenschutz- und Öffentlichkeitsbeauftragter (EDÖB)**",
+        "Feldeggweg 1",
+        "3003 Bern, Schweiz",
+        "Telefon: +41 58 462 43 95",
+        "E-Mail: info@edoeb.admin.ch",
+        "Website: www.edoeb.admin.ch"
+      ]
+    }
+  }
+}

@@ -1,0 +1,95 @@
+{
+  "page": {
+    "title": "Über uns",
+    "description": "Die Menschen und Werte hinter Dzaferi-Gartenbau. Leidenschaft für Natur, Präzision im Handwerk.",
+    "hero": {
+      "overline": "ÜBER UNS",
+      "heading": "Leidenschaft für Natur,",
+      "headingAccent": "Präzision im Handwerk",
+      "subtitle": "Lernen Sie die Menschen und Werte hinter Dzaferi-Gartenbau kennen.",
+      "ourValues": "Unsere Werte"
+    },
+    "story": {
+      "overline": "UNSERE GESCHICHTE",
+      "heading": "Mit Leidenschaft verwurzelt, mit Präzision gebaut",
+      "subtitle": "Von der Gründung bis zum vertrauten Namen in der Region Zürich.",
+      "contentHeading": "Unsere Geschichte",
+      "paragraphs": [
+        "Gegründet aus tiefer Leidenschaft für Natur und Handwerk, ist Dzaferi-Gartenbau von kleinen Anfängen zu einem geschätzten Anbieter für hochwertigen Gartenbau in der Region Zürich gewachsen.",
+        "Wir bauen nicht nur Gärten - wir schaffen Lebensräume, die die Lebensqualität steigern. Verwurzelt in Leidenschaft und geprägt von Erfahrung bringt unser Team Schweizer Präzision in jedes Projekt.",
+        "Die Natur ist unsere Inspiration, Präzision unser Versprechen. Ihre Vision, unsere Expertise."
+      ],
+      "imageAlt": "Dzaferi-Gartenbau Team bei der Arbeit"
+    },
+    "values": {
+      "overline": "UNSERE WERTE",
+      "heading": "Wofür wir stehen",
+      "cards": [
+        {
+          "title": "Qualität",
+          "description": "Schweizer Präzision in jedem Detail"
+        },
+        {
+          "title": "Vertrauen",
+          "description": "Zuverlässige Partnerschaften, ehrliche Kommunikation"
+        },
+        {
+          "title": "Natur",
+          "description": "Respekt für die Umwelt in allem, was wir tun"
+        },
+        {
+          "title": "Leidenschaft",
+          "description": "Echte Liebe zum Gärtnerhandwerk"
+        }
+      ]
+    },
+    "landscape": {
+      "quote": {
+        "prefix": "Lassen Sie Ihre",
+        "hands": "Hände",
+        "middle": "mit Erde bedeckt sein und Ihr",
+        "heart": "Herz",
+        "suffix": "mit Hoffnung."
+      },
+      "subtitle": "Träume wachsen lassen - Pflanze für Pflanze."
+    },
+    "purpose": {
+      "overline": "UNSER ANSPRUCH",
+      "heading": "Unsere Vision & Mission",
+      "cards": [
+        {
+          "title": "Unsere Vision",
+          "description": "Zeitlose Außenräume zu schaffen, die Natur, Funktionalität und Handwerkskunst vereinen - und so verbessern, wie Menschen leben und sich mit ihrer Umgebung verbinden."
+        },
+        {
+          "title": "Unsere Mission",
+          "description": "Unsere Mission ist es, hochwertige Gärten und Außenanlagen durch durchdachte Planung, nachhaltige Arbeitsweisen und präzise Ausführung zu gestalten und zu bauen. Gemeinsam mit unseren Kundinnen und Kunden schaffen wir langlebige, schöne Ergebnisse mit bleibendem Wert."
+        }
+      ]
+    },
+    "team": {
+      "overline": "UNSER TEAM",
+      "heading": "Die Menschen hinter Ihrem Garten",
+      "cards": [
+        {
+          "name": "Ferit Dzaferi",
+          "role": "Gründer & Geschäftsführer",
+          "bio": "Mit über 15 Jahren Erfahrung im Gartenbau bringt Ferit Leidenschaft und Präzision in jedes Projekt.",
+          "phone": "079 402 56 21"
+        },
+        {
+          "name": "Jean Oertli",
+          "role": "Betrieb & Kundenbetreuung",
+          "bio": "Jean sorgt dafür, dass jede Kundin und jeder Kunde persönlich betreut wird und Projekte vom Start bis zum Abschluss reibungslos laufen.",
+          "phone": ""
+        }
+      ]
+    },
+    "cta": {
+      "heading": "Bereit, Ihren Außenbereich zu verwandeln?",
+      "subtitle": "Lassen Sie uns über Ihre Vorstellungen sprechen. Wir bieten eine kostenlose Erstberatung.",
+      "primaryCta": "Kontakt aufnehmen",
+      "secondaryCta": "079 402 56 21"
+    }
+  }
+}
