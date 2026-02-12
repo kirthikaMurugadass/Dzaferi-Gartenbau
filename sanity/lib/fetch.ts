@@ -1,5 +1,6 @@
 import { client } from './client'
-import { LocaleId } from '../schemaTypes/fields/multilingualField'
+
+type LocaleId = 'en' | 'de'
 
 /**
  * Reusable fetch helper for Sanity queries
@@ -39,31 +40,33 @@ export async function sanityFetch<T = any>({
 
 /**
  * Helper to fetch home page data with locale
+ * TODO: Implement when homeQueries module is created
  */
-export async function fetchHomePage(locale: LocaleId, revalidate?: number | false) {
-  const { getHomePageQuery } = await import('./queries/homeQueries')
-  
-  return sanityFetch({
-    query: getHomePageQuery(locale),
-    params: { locale },
-    tags: ['home', `home-${locale}`],
-    revalidate,
-  })
-}
+// export async function fetchHomePage(locale: LocaleId, revalidate?: number | false) {
+//   const { getHomePageQuery } = await import('./queries/homeQueries')
+//   
+//   return sanityFetch({
+//     query: getHomePageQuery(locale),
+//     params: { locale },
+//     tags: ['home', `home-${locale}`],
+//     revalidate,
+//   })
+// }
 
 /**
  * Helper to fetch modular home page data with locale
+ * TODO: Implement when homeModularQueries module is created
  */
-export async function fetchModularHomePage(locale: LocaleId, revalidate?: number | false) {
-  const { getModularHomePageQuery } = await import('./queries/homeModularQueries')
-  
-  return sanityFetch({
-    query: getModularHomePageQuery(locale),
-    params: { locale },
-    tags: ['homeModular', `homeModular-${locale}`, 'service', 'project'],
-    revalidate,
-  })
-}
+// export async function fetchModularHomePage(locale: LocaleId, revalidate?: number | false) {
+//   const { getModularHomePageQuery } = await import('./queries/homeModularQueries')
+//   
+//   return sanityFetch({
+//     query: getModularHomePageQuery(locale),
+//     params: { locale },
+//     tags: ['homeModular', `homeModular-${locale}`, 'service', 'project'],
+//     revalidate,
+//   })
+// }
 
 /**
  * Revalidate home page cache by tag

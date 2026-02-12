@@ -37,11 +37,11 @@ export function ScrollAnimation({
   const variants: Variants = {
     hidden: {
       opacity: 0,
-      [axis]: value,
+      ...(isVertical ? { y: value } : { x: value }),
     },
     visible: {
       opacity: 1,
-      [axis]: 0,
+      ...(isVertical ? { y: 0 } : { x: 0 }),
       transition: {
         duration,
         delay,

@@ -1,4 +1,4 @@
-import { LocaleId } from '../schemaTypes/fields/multilingualField'
+type LocaleId = 'en' | 'de'
 
 /**
  * Sanity Image Asset

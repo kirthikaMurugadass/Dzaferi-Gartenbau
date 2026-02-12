@@ -44,7 +44,7 @@ export function ProjectDetailPageClient({
 
   // Legacy translations for project details are no longer required.
   // We rely on Sanity data passed from the server. Keep details null-safe.
-  const details: ProjectDetail | null = null;
+  const details = null as ProjectDetail | null;
 
   const title = titleProp ?? details?.title ?? slug;
   const description = descriptionProp ?? details?.description ?? "";
