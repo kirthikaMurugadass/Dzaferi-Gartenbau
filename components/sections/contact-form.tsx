@@ -28,7 +28,7 @@ export function ContactForm() {
   const [submitted, setSubmitted] = useState(false);
   const [error, setError] = useState<string | null>(null);
   const t = useTranslations("Contact.page.form");
-  const locale = useLocale() as 'en' | 'de';
+  const locale = useLocale();
 
   const contactFormSchema = useMemo(
     () =>

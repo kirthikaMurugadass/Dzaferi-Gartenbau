@@ -14,9 +14,8 @@ type Props = { params: Promise<{ locale: string }> };
 
 const VALUE_ICONS = [Leaf, Shield, Heart, Sparkles] as const;
 
-export async function generateMetadata({ params }: Props): Promise<Metadata> {
-  const { locale } = await params;
-  const t = await getTranslations({ locale, namespace: "About.page" });
+export async function generateMetadata(): Promise<Metadata> {
+  const t = await getTranslations("About.page");
   return {
     title: t("title"),
     description: t("description"),

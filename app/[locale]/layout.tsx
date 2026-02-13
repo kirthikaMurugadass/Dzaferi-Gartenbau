@@ -19,7 +19,7 @@ export function generateStaticParams() {
 export default async function LocaleLayout({ children, params }: Props) {
   const { locale } = await params;
 
-  if (!routing.locales.includes(locale as "en" | "de")) {
+  if (!routing.locales.includes(locale as "de")) {
     notFound();
   }
 
@@ -28,7 +28,7 @@ export default async function LocaleLayout({ children, params }: Props) {
   
   let footerData = null;
   try {
-    footerData = await getFooterData(locale as 'en' | 'de');
+    footerData = await getFooterData();
   } catch (error) {
     console.error('Error fetching footer data:', error);
   }
@@ -37,7 +37,7 @@ export default async function LocaleLayout({ children, params }: Props) {
     <NextIntlClientProvider messages={messages}>
       <Navbar />
       <main>{children}</main>
-      <Footer footerData={footerData} locale={locale} />
+      <Footer footerData={footerData} />
       <ScrollToTop />
     </NextIntlClientProvider>
   );

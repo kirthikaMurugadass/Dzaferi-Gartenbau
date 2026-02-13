@@ -7,9 +7,8 @@ import type { Metadata } from "next";
 
 type Props = { params: Promise<{ locale: string }> };
 
-export async function generateMetadata({ params }: Props): Promise<Metadata> {
-  const { locale } = await params;
-  const t = await getTranslations({ locale, namespace: "privacy.page" });
+export async function generateMetadata(): Promise<Metadata> {
+  const t = await getTranslations("privacy.page");
   return {
     title: t("title"),
     description: t("description"),
@@ -32,7 +31,7 @@ export default async function PrivacyPolicyPage({ params }: Props) {
             className="inline-flex items-center gap-2 text-white/80 hover:text-white mb-6 transition-colors"
           >
             <ArrowLeft className="h-4 w-4" />
-            {locale === "de" ? "Zurück zur Startseite" : "Back to Home"}
+            Zurück zur Startseite
           </Link>
           <h1 className="text-4xl md:text-5xl font-bold text-white mb-4 font-[family-name:var(--font-heading)]">
             {page("title")}

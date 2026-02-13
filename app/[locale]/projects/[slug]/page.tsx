@@ -7,8 +7,8 @@ import { getProjectBySlug } from "@/sanity/lib/queries";
 type Props = { params: Promise<{ locale: string; slug: string }> };
 
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
-  const { locale, slug } = await params;
-  const project = await getProjectBySlug(slug, locale as "en" | "de");
+  const { slug } = await params;
+  const project = await getProjectBySlug(slug);
 
   if (!project) {
     return { title: "Project" };
@@ -41,7 +41,7 @@ export default async function ProjectDetailPage({ params }: Props) {
   const { locale, slug } = await params;
   setRequestLocale(locale);
 
-  const project = await getProjectBySlug(slug, locale as "en" | "de");
+  const project = await getProjectBySlug(slug);
 
   if (!project) notFound();
 

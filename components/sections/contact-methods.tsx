@@ -1,7 +1,7 @@
 "use client";
 
 import { Phone, Mail, MapPin } from "lucide-react";
-import { useTranslations, useLocale } from "next-intl";
+import { useTranslations } from "next-intl";
 import type { ContactPageData } from "@/types/sanity/contact";
 
 interface ContactMethodsProps {
@@ -10,12 +10,11 @@ interface ContactMethodsProps {
 
 export function ContactMethods({ contactData }: ContactMethodsProps) {
   const t = useTranslations("Contact.page.methods");
-  const locale = useLocale() as "en" | "de";
 
   // Fallback to constants if Sanity data not available
   const phone = contactData?.contactDetails?.phone || "079 402 56 21";
   const email = contactData?.contactDetails?.email || "info@dzaferi-gartenbau.ch";
-  const address = contactData?.addressSection?.address?.[locale] || contactData?.addressSection?.address?.en || "Hauptstrasse, 8132 Egg, Switzerland";
+  const address = contactData?.addressSection?.address || "Hauptstrasse, 8132 Egg, Switzerland";
   
   // Extract map URL - handle both embed URLs and regular URLs
   let mapUrl = "https://www.google.com/maps?q=Egg+Zurich+Switzerland";

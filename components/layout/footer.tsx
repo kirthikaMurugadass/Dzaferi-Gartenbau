@@ -37,7 +37,6 @@ interface FooterData {
 
 interface FooterProps {
   footerData?: FooterData | null;
-  locale?: string;
 }
 
 const SOCIAL_ICONS: Record<string, any> = {
@@ -48,7 +47,7 @@ const SOCIAL_ICONS: Record<string, any> = {
   youtube: Youtube,
 };
 
-export function Footer({ footerData, locale = 'en' }: FooterProps) {
+export function Footer({ footerData }: FooterProps) {
   const companyName = footerData?.companyName || "D'Zaferi Gartenbau";
   const description = footerData?.description || "Expert garden construction, care, and property services across the Zurich region.";
   const address = footerData?.address || "Zurich, Switzerland";
@@ -111,7 +110,7 @@ export function Footer({ footerData, locale = 'en' }: FooterProps) {
           {footerData?.links && footerData.links.length > 0 && (
             <div>
               <h4 className="text-sm font-semibold uppercase tracking-wider text-white mb-4 font-[family-name:var(--font-heading)]">
-                {locale === 'de' ? 'Navigation' : 'Navigation'}
+                Navigation
               </h4>
               <ul className="space-y-2">
                 {footerData.links.map((link, index) => (
@@ -132,7 +131,7 @@ export function Footer({ footerData, locale = 'en' }: FooterProps) {
           {(!footerData?.links || footerData.links.length === 0) && (
             <div>
               <h4 className="text-sm font-semibold uppercase tracking-wider text-white mb-4 font-[family-name:var(--font-heading)]">
-                {locale === 'de' ? 'Dienstleistungen' : 'Services'}
+                Dienstleistungen
               </h4>
               <ul className="space-y-2">
                 <li>
@@ -140,7 +139,7 @@ export function Footer({ footerData, locale = 'en' }: FooterProps) {
                     href="/services/home-maintenance"
                     className="text-sm text-neutral-400 hover:text-white transition-colors"
                   >
-                    {locale === 'de' ? 'Hauswartung' : 'Home Maintenance'}
+                    Hauswartung
                   </Link>
                 </li>
                 <li>
@@ -148,7 +147,7 @@ export function Footer({ footerData, locale = 'en' }: FooterProps) {
                     href="/services/garden-maintenance"
                     className="text-sm text-neutral-400 hover:text-white transition-colors"
                   >
-                    {locale === 'de' ? 'Gartenpflege' : 'Garden Care'}
+                    Gartenpflege
                   </Link>
                 </li>
                 <li>
@@ -156,7 +155,7 @@ export function Footer({ footerData, locale = 'en' }: FooterProps) {
                     href="/services/horiculture"
                     className="text-sm text-neutral-400 hover:text-white transition-colors"
                   >
-                    {locale === 'de' ? 'Gartenbau' : 'Horticulture'}
+                    Gartenbau
                   </Link>
                 </li>
                 <li>
@@ -164,7 +163,7 @@ export function Footer({ footerData, locale = 'en' }: FooterProps) {
                     href="/services/winter-service"
                     className="text-sm text-neutral-400 hover:text-white transition-colors"
                   >
-                    {locale === 'de' ? 'Winterdienst' : 'Winter Service'}
+                    Winterdienst
                   </Link>
                 </li>
               </ul>
@@ -174,7 +173,7 @@ export function Footer({ footerData, locale = 'en' }: FooterProps) {
           {/* Company */}
           <div>
             <h4 className="text-sm font-semibold uppercase tracking-wider text-white mb-4 font-[family-name:var(--font-heading)]">
-              {locale === 'de' ? 'Unternehmen' : 'Company'}
+              Unternehmen
             </h4>
             <ul className="space-y-2">
               <li>
@@ -182,7 +181,7 @@ export function Footer({ footerData, locale = 'en' }: FooterProps) {
                   href="/about"
                   className="text-sm text-neutral-400 hover:text-white transition-colors"
                 >
-                  {locale === 'de' ? 'Über uns' : 'About'}
+                  Über uns
                 </Link>
               </li>
               <li>
@@ -190,7 +189,7 @@ export function Footer({ footerData, locale = 'en' }: FooterProps) {
                   href="/projects"
                   className="text-sm text-neutral-400 hover:text-white transition-colors"
                 >
-                  {locale === 'de' ? 'Projekte' : 'Projects'}
+                  Projekte
                 </Link>
               </li>
               <li>
@@ -198,7 +197,7 @@ export function Footer({ footerData, locale = 'en' }: FooterProps) {
                   href="/contact"
                   className="text-sm text-neutral-400 hover:text-white transition-colors"
                 >
-                  {locale === 'de' ? 'Kontakt' : 'Contact'}
+                  Kontakt
                 </Link>
               </li>
             </ul>
@@ -207,7 +206,7 @@ export function Footer({ footerData, locale = 'en' }: FooterProps) {
           {/* Contact */}
           <div>
             <h4 className="text-sm font-semibold uppercase tracking-wider text-white mb-4 font-[family-name:var(--font-heading)]">
-              {locale === 'de' ? 'Kontakt' : 'Contact'}
+              Kontakt
             </h4>
             <div className="space-y-3 text-sm text-neutral-400">
               <p>
@@ -235,7 +234,7 @@ export function Footer({ footerData, locale = 'en' }: FooterProps) {
                     rel="noopener noreferrer"
                     className="text-accent-gold hover:text-accent-gold/80 transition-colors"
                   >
-                    {locale === 'de' ? 'Auf Karte ansehen' : 'View on Map'}
+                    Auf Karte ansehen
                   </a>
                 </p>
               )}
@@ -250,7 +249,7 @@ export function Footer({ footerData, locale = 'en' }: FooterProps) {
           </p>
           <div className="flex flex-wrap justify-center gap-4 sm:gap-6 text-xs sm:text-[13px] text-neutral-500 order-1 sm:order-2">
             <Link href="/impressum" className="hover:text-neutral-400 transition-colors">
-              {locale === 'de' ? 'Impressum' : 'Impressum'}
+              Impressum
             </Link>
             {footerData?.privacyPolicyUrl && (
               <Link href={footerData.privacyPolicyUrl} className="hover:text-neutral-400 transition-colors">
@@ -259,10 +258,10 @@ export function Footer({ footerData, locale = 'en' }: FooterProps) {
             )}
             {!footerData?.privacyPolicyUrl && (
               <Link href="/privacy-policy" className="hover:text-neutral-400 transition-colors">
-                {locale === 'de' ? 'Datenschutz' : 'Privacy Policy'}
+                Datenschutz
               </Link>
             )}
-            <span>{locale === 'de' ? 'Mit ❤️ gemacht in der Schweiz' : 'Made with ❤️ in Switzerland'}</span>
+            <span>Mit ❤️ gemacht in der Schweiz</span>
           </div>
         </div>
       </div>
