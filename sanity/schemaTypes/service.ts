@@ -6,41 +6,22 @@ export default defineType({
   type: 'document',
   fields: [
     defineField({
-      name: 'title_en',
-      title: 'Title (English)',
+      name: 'title',
+      title: 'Title',
       type: 'string',
       validation: (Rule) => Rule.required(),
     }),
     defineField({
-      name: 'title_de',
-      title: 'Title (German)',
-      type: 'string',
-      validation: (Rule) => Rule.required(),
-    }),
-    defineField({
-      name: 'description_en',
-      title: 'Description (English)',
+      name: 'description',
+      title: 'Description',
       type: 'text',
       validation: (Rule) => Rule.required(),
     }),
     defineField({
-      name: 'description_de',
-      title: 'Description (German)',
-      type: 'text',
-      validation: (Rule) => Rule.required(),
-    }),
-    defineField({
-      name: 'details_en',
-      title: 'Details (English)',
+      name: 'details',
+      title: 'Details',
       type: 'blockContent',
       description: 'Detailed service explanation content',
-      validation: (Rule) => Rule.required(),
-    }),
-    defineField({
-      name: 'details_de',
-      title: 'Details (German)',
-      type: 'blockContent',
-      description: 'Detailed service explanation content in German',
       validation: (Rule) => Rule.required(),
     }),
     defineField({
@@ -81,7 +62,7 @@ export default defineType({
       title: 'Slug',
       type: 'slug',
       options: {
-        source: 'title_en',
+        source: 'title',
         maxLength: 96,
       },
       validation: (Rule) => Rule.required(),
@@ -110,7 +91,7 @@ export default defineType({
   ],
   preview: {
     select: {
-      title: 'title_en',
+      title: 'title',
       media: 'image',
       order: 'order',
       isActive: 'isActive',

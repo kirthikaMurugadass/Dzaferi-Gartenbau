@@ -1,5 +1,4 @@
 import { getTranslations } from "next-intl/server";
-import { setRequestLocale } from "next-intl/server";
 import { Hero } from "@/components/sections/hero";
 import { SectionWrapper } from "@/components/layout/section-wrapper";
 import { SectionHeader } from "@/components/shared/section-header";
@@ -9,15 +8,12 @@ import { CTABanner } from "@/components/sections/cta-banner";
 import type { Metadata } from "next";
 import { getContactPage } from "@/sanity/lib/queries";
 
-type Props = { params: Promise<{ locale: string }> };
-
-export async function generateMetadata({ params }: Props): Promise<Metadata> {
-  const { locale } = await params;
-  const contactData = await getContactPage(locale as "en" | "de");
-  const t = await getTranslations({ locale, namespace: "Contact.page" });
+export async function generateMetadata(): Promise<Metadata> {
+  const contactData = await getContactPage();
+  const t = await getTranslations("Contact.page");
   
-  const title = contactData?.headerSection?.title?.[locale as "en" | "de"] || t("title");
-  const description = contactData?.headerSection?.description?.[locale as "en" | "de"] || t("description");
+  const title = contactData?.headerSection?.title || t("title");
+  const description = contactData?.headerSection?.description || t("description");
   
   return {
     title,
@@ -25,25 +21,23 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   };
 }
 
-export default async function ContactPage({ params }: Props) {
-  const { locale } = await params;
-  setRequestLocale(locale);
+export default async function ContactPage() {
   const t = await getTranslations("Contact.page");
   const hero = await getTranslations("Contact.page.hero");
   const section = await getTranslations("Contact.page.section");
   const cta = await getTranslations("Contact.page.cta");
 
   // Fetch contact page data from Sanity
-  const contactData = await getContactPage(locale as "en" | "de");
+  const contactData = await getContactPage();
 
-  // Get localized values from Sanity or fallback to translations
-  const title = contactData?.headerSection?.title?.[locale as "en" | "de"] || hero("heading");
-  const description = contactData?.headerSection?.description?.[locale as "en" | "de"] || hero("subtitle");
+  // Get values from Sanity or fallback to translations
+  const title = contactData?.headerSection?.title || hero("heading");
+  const description = contactData?.headerSection?.description || hero("subtitle");
   const mapUrl = contactData?.addressSection?.googleMapEmbedUrl || "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d21626.5!2d8.7!3d47.3!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zNDfCsDE4JzAwLjAiTiA4wrA0MicwMC4wIkU!5e0!3m2!1sen!2sch!4v1234567890";
   const phone = contactData?.contactDetails?.phone || "079 402 56 21";
   const phoneFormatted = phone.replace(/\s/g, "").replace(/^0/, "+41 ");
   const businessHours = contactData?.businessHours || [];
-  const ctaText = contactData?.ctaSection?.ctaText?.[locale as "en" | "de"] || cta("subtitle");
+  const ctaText = contactData?.ctaSection?.ctaText || cta("subtitle");
 
   return (
     <>

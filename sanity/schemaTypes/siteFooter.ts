@@ -7,26 +7,14 @@ export default defineType({
   fields: [
     // Company Info
     defineField({
-      name: 'companyName_en',
-      title: 'Company Name (English)',
+      name: 'companyName',
+      title: 'Company Name',
       type: 'string',
       validation: (Rule) => Rule.required()
     }),
     defineField({
-      name: 'companyName_de',
-      title: 'Company Name (German)',
-      type: 'string',
-      validation: (Rule) => Rule.required()
-    }),
-    defineField({
-      name: 'description_en',
-      title: 'Company Description (English)',
-      type: 'text',
-      validation: (Rule) => Rule.required()
-    }),
-    defineField({
-      name: 'description_de',
-      title: 'Company Description (German)',
+      name: 'description',
+      title: 'Company Description',
       type: 'text',
       validation: (Rule) => Rule.required()
     }),
@@ -41,14 +29,8 @@ export default defineType({
 
     // Contact Details
     defineField({
-      name: 'address_en',
-      title: 'Address (English)',
-      type: 'text',
-      validation: (Rule) => Rule.required()
-    }),
-    defineField({
-      name: 'address_de',
-      title: 'Address (German)',
+      name: 'address',
+      title: 'Address',
       type: 'text',
       validation: (Rule) => Rule.required()
     }),
@@ -80,14 +62,8 @@ export default defineType({
           type: 'object',
           fields: [
             {
-              name: 'label_en',
-              title: 'Label (English)',
-              type: 'string',
-              validation: (Rule) => Rule.required()
-            },
-            {
-              name: 'label_de',
-              title: 'Label (German)',
+              name: 'label',
+              title: 'Label',
               type: 'string',
               validation: (Rule) => Rule.required()
             },
@@ -100,7 +76,7 @@ export default defineType({
           ],
           preview: {
             select: {
-              title: 'label_en',
+              title: 'label',
               subtitle: 'url'
             }
           }
@@ -151,25 +127,14 @@ export default defineType({
 
     // Bottom Bar
     defineField({
-      name: 'copyright_en',
-      title: 'Copyright Text (English)',
+      name: 'copyright',
+      title: 'Copyright Text',
       type: 'string',
       validation: (Rule) => Rule.required()
     }),
     defineField({
-      name: 'copyright_de',
-      title: 'Copyright Text (German)',
-      type: 'string',
-      validation: (Rule) => Rule.required()
-    }),
-    defineField({
-      name: 'privacyPolicyLabel_en',
-      title: 'Privacy Policy Label (English)',
-      type: 'string'
-    }),
-    defineField({
-      name: 'privacyPolicyLabel_de',
-      title: 'Privacy Policy Label (German)',
+      name: 'privacyPolicyLabel',
+      title: 'Privacy Policy Label',
       type: 'string'
     }),
     defineField({
@@ -180,7 +145,7 @@ export default defineType({
   ],
   preview: {
     select: {
-      title: 'companyName_en'
+      title: 'companyName'
     }
   }
 })

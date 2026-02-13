@@ -1,5 +1,3 @@
-type LocaleId = 'en' | 'de'
-
 /**
  * Sanity Image Asset
  */
@@ -85,13 +83,6 @@ export interface HomePageData {
   metaTitle?: string
   metaDescription?: string
   ogImage?: SanityImage
-}
-
-/**
- * Props for page components
- */
-export interface HomePageProps {
-  params: Promise<{ locale: LocaleId }>
 }
 
 /**

@@ -10,26 +10,22 @@ import {
 } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { CTABanner } from "@/components/sections/cta-banner";
-import { routing } from "@/i18n/routing";
 import { getTranslations } from "next-intl/server";
-import { setRequestLocale } from "next-intl/server";
 import type { Metadata } from "next";
 import { getServiceBySlug, getAllServiceSlugs } from "@/sanity/lib/queries";
 import { urlForImage } from "@/sanity/lib/image";
 import { PortableText } from "@/components/shared/portable-text";
 
-type Props = { params: Promise<{ locale: string; slug: string }> };
+type Props = { params: Promise<{ slug: string }> };
 
 export async function generateStaticParams() {
   const slugs = await getAllServiceSlugs();
-  return routing.locales.flatMap((locale) =>
-    slugs.map((slug) => ({ locale, slug }))
-  );
+  return slugs.map((slug) => ({ slug }));
 }
 
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
-  const { locale, slug } = await params;
-  const service = await getServiceBySlug(slug, locale as "en" | "de");
+  const { slug } = await params;
+  const service = await getServiceBySlug(slug);
   
   if (!service) {
     return { title: "Service Not Found" };
@@ -76,11 +72,10 @@ function formatTitleWithSpan(title: string) {
 }
 
 export default async function ServiceDetailPage({ params }: Props) {
-  const { locale, slug } = await params;
-  setRequestLocale(locale);
+  const { slug } = await params;
   
   // Fetch service from Sanity
-  const service = await getServiceBySlug(slug, locale as "en" | "de");
+  const service = await getServiceBySlug(slug);
 
   if (!service) notFound();
 
@@ -164,33 +159,6 @@ export default async function ServiceDetailPage({ params }: Props) {
 
             </div>
             <div className="lg:sticky lg:top-24 space-y-6">
-              {/* What We Offer */}
-              {/* <div className="bg-white rounded-xl p-6 border border-neutral-200 shadow-sm">
-                <h2 className="text-xl font-semibold text-neutral-950 mb-6 font-[family-name:var(--font-heading)]">
-                  {detail("whatWeOffer")}
-                </h2>
-                {Array.isArray(features) && features.length > 0 && (
-                  <ul className="space-y-3 mb-6">
-                    {features.map((feature) => (
-                      <li
-                        key={feature}
-                        className="flex items-center gap-3 text-neutral-700"
-                      >
-                        <span className="flex-shrink-0 w-5 h-5 rounded-full bg-primary-100 flex items-center justify-center">
-                          <Check className="h-3 w-3 text-primary-600" />
-                        </span>
-                        {feature}
-                      </li>
-                    ))}
-                  </ul>
-                )}
-                <Link href="/contact">
-                  <Button variant="primary" size="lg" className="w-full">
-                    {t("bookService")}
-                  </Button>
-                </Link>
-              </div> */}
-
               {/* Call To Action Card */}
               <div
                 className="bg-gradient-to-br from-primary-600 to-primary-700 rounded-xl p-6 text-white shadow-lg relative overflow-hidden"

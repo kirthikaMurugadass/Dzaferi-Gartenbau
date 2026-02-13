@@ -13,24 +13,12 @@ export default defineType({
         {
           type: 'object',
           fields: [
-            { name: 'title_en', title: 'Title (English)', type: 'string' },
-            { name: 'title_de', title: 'Title (German)', type: 'string' },
-
-          
-
-            { name: 'subtitle_en', title: 'Subtitle (English)', type: 'text' },
-            { name: 'subtitle_de', title: 'Subtitle (German)', type: 'text' },
-
-            { name: 'button1_en', title: 'Button 1 Text (English)', type: 'string' },
-            { name: 'button1_de', title: 'Button 1 Text (German)', type: 'string' },
-
+            { name: 'title', title: 'Title', type: 'string' },
+            { name: 'subtitle', title: 'Subtitle', type: 'text' },
+            { name: 'button1', title: 'Button 1 Text', type: 'string' },
             { name: 'button1_link', title: 'Button 1 Link', type: 'string' },
-
-            { name: 'button2_en', title: 'Button 2 Text (English)', type: 'string' },
-            { name: 'button2_de', title: 'Button 2 Text (German)', type: 'string' },
-
+            { name: 'button2', title: 'Button 2 Text', type: 'string' },
             { name: 'button2_link', title: 'Button 2 Link', type: 'string' },
-
             {
               name: 'image',
               title: 'Background Image',

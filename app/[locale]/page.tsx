@@ -1,4 +1,3 @@
-import { setRequestLocale } from "next-intl/server";
 import { getTranslations } from "next-intl/server";
 import {
   getHeroSection,
@@ -14,9 +13,7 @@ import { HeroSlider } from "@/components/sections/HeroSlider";
 import { TrustBar } from "@/components/sections/trust-bar";
 import { ServicesOverview } from "@/components/sections/services-overview";
 import { FeatureCardsSection } from "@/components/sections/FeatureCardsSection";
-// import { FeaturedProjects } from "@/components/sections/featured-projects";
 import { WhyChooseUs } from "@/components/sections/why-choose-us";
-
 import { HowWeWork } from "@/components/sections/how-we-work";
 import { Testimonials } from "@/components/sections/testimonials";
 import { CTABanner } from "@/components/sections/cta-banner";
@@ -25,27 +22,20 @@ import { CTABanner } from "@/components/sections/cta-banner";
 export const dynamic = 'force-dynamic';
 export const revalidate = 0;
 
-type Props = { params: Promise<{ locale: string }> };
-
-export async function generateMetadata({ params }: Props) {
-  const { locale } = await params;
-  
+export async function generateMetadata() {
   return {
     title: "Home",
     description: "Welcome to our website",
   };
 }
 
-export default async function HomePage({ params }: Props) {
-  const { locale } = await params;
-  setRequestLocale(locale);
-
+export default async function HomePage() {
   const cta = await getTranslations("Home.cta");
   
   // Fetch hero data from Sanity
   let heroData = null;
   try {
-    heroData = await getHeroSection(locale as 'en' | 'de');
+    heroData = await getHeroSection();
     console.log('Hero Data from Sanity:', heroData);
   } catch (error) {
     console.error('Error fetching hero data:', error);
@@ -54,7 +44,7 @@ export default async function HomePage({ params }: Props) {
   // Fetch feature cards from Sanity
   let featureCards = null;
   try {
-    featureCards = await getFeatureCards(locale as 'en' | 'de');
+    featureCards = await getFeatureCards();
     console.log('Feature Cards from Sanity:', featureCards);
   } catch (error) {
     console.error('Error fetching feature cards:', error);
@@ -63,7 +53,7 @@ export default async function HomePage({ params }: Props) {
   // Fetch stats from Sanity
   let stats = null;
   try {
-    stats = await getStats(locale as 'en' | 'de');
+    stats = await getStats();
     console.log('Stats from Sanity:', stats);
   } catch (error) {
     console.error('Error fetching stats:', error);
@@ -72,25 +62,25 @@ export default async function HomePage({ params }: Props) {
   // Fetch testimonials from Sanity
   let testimonials = null;
   try {
-    testimonials = await getTestimonials(locale as 'en' | 'de');
+    testimonials = await getTestimonials();
     console.log('Testimonials from Sanity:', testimonials);
   } catch (error) {
     console.error('Error fetching testimonials:', error);
   }
 
-  // Fetch home projects from Sanity (localized)
+  // Fetch home projects from Sanity
   let homeProjects = null;
   try {
-    homeProjects = await getHomeProjects(locale as 'en' | 'de');
+    homeProjects = await getHomeProjects();
     console.log('Home projects from Sanity:', homeProjects);
   } catch (error) {
     console.error('Error fetching home projects:', error);
   }
 
-  // Fetch home services from Sanity (localized)
+  // Fetch home services from Sanity
   let homeServices = null;
   try {
-    homeServices = await getHomeServices(locale as 'en' | 'de');
+    homeServices = await getHomeServices();
     console.log('Home services from Sanity:', homeServices);
   } catch (error) {
     console.error('Error fetching home services:', error);
@@ -120,19 +110,13 @@ export default async function HomePage({ params }: Props) {
       <TrustBar />
 
       {/* Services Overview */}
-      <ServicesOverview services={homeServices} locale={locale as 'en' | 'de'} />
+      <ServicesOverview services={homeServices} />
 
       {/* Feature Cards Section - Dynamic from Sanity */}
       <FeatureCardsSection cards={featureCards} />
 
-      {/* Featured Projects */}
-      {/* <FeaturedProjects projects={homeProjects} /> */}
-
       {/* Why Choose Us */}
       <WhyChooseUs />
-
-      {/* Stats Counter - Dynamic from Sanity */}
-      {/* <StatsCounter stats={stats} /> */}
 
       {/* How We Work */}
       <HowWeWork />

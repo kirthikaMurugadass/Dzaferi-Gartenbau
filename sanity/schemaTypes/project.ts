@@ -6,14 +6,8 @@ export default defineType({
   type: 'document',
   fields: [
     defineField({
-      name: 'title_en',
-      title: 'Title (English)',
-      type: 'string',
-      validation: (Rule) => Rule.required(),
-    }),
-    defineField({
-      name: 'title_de',
-      title: 'Title (German)',
+      name: 'title',
+      title: 'Title',
       type: 'string',
       validation: (Rule) => Rule.required(),
     }),
@@ -22,32 +16,20 @@ export default defineType({
       title: 'Slug',
       type: 'slug',
       options: {
-        source: 'title_en',
+        source: 'title',
         maxLength: 96,
       },
       validation: (Rule) => Rule.required(),
     }),
     defineField({
-      name: 'shortDescription_en',
-      title: 'Short Description (English)',
+      name: 'shortDescription',
+      title: 'Short Description',
       type: 'string',
       validation: (Rule) => Rule.required(),
     }),
     defineField({
-      name: 'shortDescription_de',
-      title: 'Short Description (German)',
-      type: 'string',
-      validation: (Rule) => Rule.required(),
-    }),
-    defineField({
-      name: 'fullDescription_en',
-      title: 'Full Description (English)',
-      type: 'array',
-      of: [{ type: 'block' }],
-    }),
-    defineField({
-      name: 'fullDescription_de',
-      title: 'Full Description (German)',
+      name: 'fullDescription',
+      title: 'Full Description',
       type: 'array',
       of: [{ type: 'block' }],
     }),
@@ -87,13 +69,8 @@ export default defineType({
       ],
     }),
     defineField({
-      name: 'category_en',
-      title: 'Category (English)',
-      type: 'string',
-    }),
-    defineField({
-      name: 'category_de',
-      title: 'Category (German)',
+      name: 'category',
+      title: 'Category',
       type: 'string',
     }),
     defineField({
@@ -126,29 +103,19 @@ export default defineType({
       initialValue: false,
     }),
     defineField({
-      name: 'seoTitle_en',
-      title: 'SEO Title (English)',
+      name: 'seoTitle',
+      title: 'SEO Title',
       type: 'string',
     }),
     defineField({
-      name: 'seoTitle_de',
-      title: 'SEO Title (German)',
-      type: 'string',
-    }),
-    defineField({
-      name: 'seoDescription_en',
-      title: 'SEO Description (English)',
-      type: 'text',
-    }),
-    defineField({
-      name: 'seoDescription_de',
-      title: 'SEO Description (German)',
+      name: 'seoDescription',
+      title: 'SEO Description',
       type: 'text',
     }),
   ],
   preview: {
     select: {
-      title: 'title_en',
+      title: 'title',
       media: 'mainImage',
       order: 'order',
       showOnHome: 'showOnHome',
@@ -169,4 +136,3 @@ export default defineType({
     },
   ],
 })
-

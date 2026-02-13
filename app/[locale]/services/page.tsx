@@ -1,5 +1,4 @@
 import { getTranslations } from "next-intl/server";
-import { setRequestLocale } from "next-intl/server";
 import { Hero } from "@/components/sections/hero";
 import { SectionWrapper } from "@/components/layout/section-wrapper";
 import { SectionHeader } from "@/components/shared/section-header";
@@ -9,11 +8,8 @@ import type { Metadata } from "next";
 import { getAllServices } from "@/sanity/lib/queries";
 import type { ServiceIconName } from "@/data/services";
 
-type Props = { params: Promise<{ locale: string }> };
-
-export async function generateMetadata({ params }: Props): Promise<Metadata> {
-  const { locale } = await params;
-  const t = await getTranslations({ locale, namespace: "Services.page" });
+export async function generateMetadata(): Promise<Metadata> {
+  const t = await getTranslations("Services.page");
   return {
     title: t("title"),
     description: t("description"),
@@ -32,15 +28,13 @@ function getIconForSlug(slug: string): ServiceIconName {
   return iconMap[slug] || "Leaf";
 }
 
-export default async function ServicesPage({ params }: Props) {
-  const { locale } = await params;
-  setRequestLocale(locale);
+export default async function ServicesPage() {
   const t = await getTranslations("Services.page");
   const hero = await getTranslations("Services.page.hero");
   const section = await getTranslations("Services.page.section");
 
   // Fetch services from Sanity
-  const sanityServices = await getAllServices(locale as "en" | "de");
+  const sanityServices = await getAllServices();
 
   return (
     <>

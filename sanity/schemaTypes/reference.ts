@@ -12,14 +12,8 @@ export default defineType({
       validation: (Rule) => Rule.required(),
     }),
     defineField({
-      name: 'location_en',
-      title: 'Location (English)',
-      type: 'string',
-      validation: (Rule) => Rule.required(),
-    }),
-    defineField({
-      name: 'location_de',
-      title: 'Location (German)',
+      name: 'location',
+      title: 'Location',
       type: 'string',
       validation: (Rule) => Rule.required(),
     }),
@@ -47,14 +41,14 @@ export default defineType({
   preview: {
     select: {
       title: 'name',
-      location_en: 'location_en',
+      location: 'location',
       order: 'order',
       show: 'show',
     },
-    prepare({ title, location_en, order, show }) {
+    prepare({ title, location, order, show }) {
       return {
         title: `${order ?? 0}. ${title ?? 'Reference'}`,
-        subtitle: `${location_en || ''}${show === false ? ' (hidden)' : ''}`,
+        subtitle: `${location || ''}${show === false ? ' (hidden)' : ''}`,
       }
     },
   },
@@ -66,4 +60,3 @@ export default defineType({
     },
   ],
 })
-

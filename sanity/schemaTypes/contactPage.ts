@@ -15,40 +15,14 @@ export default defineType({
         defineField({
           name: 'title',
           title: 'Title',
-          type: 'object',
-          fields: [
-            {
-              name: 'en',
-              title: 'Title (English)',
-              type: 'string',
-              validation: (Rule) => Rule.required(),
-            },
-            {
-              name: 'de',
-              title: 'Title (German)',
-              type: 'string',
-              validation: (Rule) => Rule.required(),
-            },
-          ],
+          type: 'string',
+          validation: (Rule) => Rule.required(),
         }),
         defineField({
           name: 'description',
           title: 'Description',
-          type: 'object',
-          fields: [
-            {
-              name: 'en',
-              title: 'Description (English)',
-              type: 'text',
-              validation: (Rule) => Rule.required(),
-            },
-            {
-              name: 'de',
-              title: 'Description (German)',
-              type: 'text',
-              validation: (Rule) => Rule.required(),
-            },
-          ],
+          type: 'text',
+          validation: (Rule) => Rule.required(),
         }),
       ],
     },
@@ -83,21 +57,8 @@ export default defineType({
         defineField({
           name: 'address',
           title: 'Address',
-          type: 'object',
-          fields: [
-            {
-              name: 'en',
-              title: 'Address (English)',
-              type: 'text',
-              validation: (Rule) => Rule.required(),
-            },
-            {
-              name: 'de',
-              title: 'Address (German)',
-              type: 'text',
-              validation: (Rule) => Rule.required(),
-            },
-          ],
+          type: 'text',
+          validation: (Rule) => Rule.required(),
         }),
         defineField({
           name: 'googleMapEmbedUrl',
@@ -168,28 +129,15 @@ export default defineType({
         defineField({
           name: 'ctaText',
           title: 'CTA Text',
-          type: 'object',
-          fields: [
-            {
-              name: 'en',
-              title: 'CTA Text (English)',
-              type: 'string',
-              validation: (Rule) => Rule.required(),
-            },
-            {
-              name: 'de',
-              title: 'CTA Text (German)',
-              type: 'string',
-              validation: (Rule) => Rule.required(),
-            },
-          ],
+          type: 'string',
+          validation: (Rule) => Rule.required(),
         }),
       ],
     },
   ],
   preview: {
     select: {
-      title: 'headerSection.title.en',
+      title: 'headerSection.title',
     },
     prepare() {
       return {

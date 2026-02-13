@@ -23,10 +23,9 @@ function getIconForSlug(slug: string): ServiceIconName {
 
 interface ServicesOverviewProps {
   services?: ServiceCardType[] | null;
-  locale?: 'en' | 'de';
 }
 
-export function ServicesOverview({ services, locale = 'en' }: ServicesOverviewProps) {
+export function ServicesOverview({ services }: ServicesOverviewProps) {
   const t = useTranslations("Home.servicesOverview");
   
   // Use Sanity services if available, limit to 3 for display

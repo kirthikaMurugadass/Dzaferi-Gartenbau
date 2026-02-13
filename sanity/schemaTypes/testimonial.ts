@@ -6,46 +6,24 @@ export default defineType({
   type: 'document',
   fields: [
     defineField({
-      name: 'name_en',
-      title: 'Client Name (English)',
+      name: 'name',
+      title: 'Client Name',
       type: 'string',
       description: 'Full name of the client',
       validation: (Rule) => Rule.required()
     }),
     defineField({
-      name: 'name_de',
-      title: 'Client Name (German)',
-      type: 'string',
-      description: 'Full name of the client in German',
-      validation: (Rule) => Rule.required()
-    }),
-    defineField({
-      name: 'role_en',
-      title: 'Role/Location (English)',
+      name: 'role',
+      title: 'Role/Location',
       type: 'string',
       description: 'Job title, company, or location (e.g., "Homeowner, Zurich")',
       validation: (Rule) => Rule.required()
     }),
     defineField({
-      name: 'role_de',
-      title: 'Role/Location (German)',
-      type: 'string',
-      description: 'Job title, company, or location in German',
-      validation: (Rule) => Rule.required()
-    }),
-    defineField({
-      name: 'message_en',
-      title: 'Testimonial Message (English)',
+      name: 'message',
+      title: 'Testimonial Message',
       type: 'text',
       description: 'The testimonial quote or message',
-      rows: 4,
-      validation: (Rule) => Rule.required().min(20).max(500)
-    }),
-    defineField({
-      name: 'message_de',
-      title: 'Testimonial Message (German)',
-      type: 'text',
-      description: 'The testimonial quote or message in German',
       rows: 4,
       validation: (Rule) => Rule.required().min(20).max(500)
     }),
@@ -98,8 +76,8 @@ export default defineType({
   ],
   preview: {
     select: {
-      title: 'name_en',
-      subtitle: 'role_en',
+      title: 'name',
+      subtitle: 'role',
       media: 'image',
       order: 'order',
       rating: 'rating'

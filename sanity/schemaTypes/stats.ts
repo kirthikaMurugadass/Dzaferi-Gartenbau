@@ -6,17 +6,10 @@ export default defineType({
   type: 'document',
   fields: [
     defineField({
-      name: 'title_en',
-      title: 'Title (English)',
+      name: 'title',
+      title: 'Title',
       type: 'string',
       description: 'Label for the stat (e.g., "Happy Clients", "Projects Completed")',
-      validation: (Rule) => Rule.required()
-    }),
-    defineField({
-      name: 'title_de',
-      title: 'Title (German)',
-      type: 'string',
-      description: 'Label for the stat in German',
       validation: (Rule) => Rule.required()
     }),
     defineField({
@@ -34,17 +27,10 @@ export default defineType({
       validation: (Rule) => Rule.required()
     }),
     defineField({
-      name: 'description_en',
-      title: 'Description (English)',
+      name: 'description',
+      title: 'Description',
       type: 'text',
       description: 'Optional additional description',
-      rows: 2
-    }),
-    defineField({
-      name: 'description_de',
-      title: 'Description (German)',
-      type: 'text',
-      description: 'Optional additional description in German',
       rows: 2
     }),
     defineField({
@@ -64,7 +50,7 @@ export default defineType({
   ],
   preview: {
     select: {
-      title: 'title_en',
+      title: 'title',
       value: 'value',
       suffix: 'suffix',
       order: 'order'

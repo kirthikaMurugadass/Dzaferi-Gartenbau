@@ -1,14 +1,14 @@
 export interface ContactPageData {
   headerSection: {
-    title: { en: string; de: string };
-    description: { en: string; de: string };
+    title: string;
+    description: string;
   };
   contactDetails: {
     phone: string;
     email: string;
   };
   addressSection: {
-    address: { en: string; de: string };
+    address: string;
     googleMapEmbedUrl: string;
   };
   businessHours: Array<{
@@ -16,6 +16,6 @@ export interface ContactPageData {
     time: string;
   }>;
   ctaSection: {
-    ctaText: { en: string; de: string };
+    ctaText: string;
   };
 }
